@@ -1,0 +1,4 @@
+# Core library: standard library only.
+# The experiment and figure scripts additionally need:
+numpy>=2.0
+matplotlib>=3.9

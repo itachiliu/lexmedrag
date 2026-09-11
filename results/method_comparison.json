@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T20:38:34",
+    "dataset": "adversarial_conflict_set (240 queries / 641 expected pairs)",
+    "note": "全部方法使用相同候选规则集合与相同查询，差异仅在判定方式。"
+  },
+  "methods": {
+    "LexMedRAG": {
+      "expected": 641,
+      "detected": 641,
+      "recognized": 461,
+      "conflict_recall": 1.0,
+      "conflict_recognition_rate": 0.7192,
+      "distinct_pairs_claimed_conflict": 35,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 81,
+          "rate": 1.0
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 120,
+          "rate": 1.0
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 87,
+          "rate": 0.725
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 106,
+          "rate": 0.8833
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 67,
+          "rate": 0.8375
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "DL": {
+      "expected": 641,
+      "detected": 361,
+      "recognized": 361,
+      "conflict_recall": 0.5632,
+      "conflict_recognition_rate": 0.5632,
+      "distinct_pairs_claimed_conflict": 350,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 81,
+          "rate": 1.0
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 120,
+          "rate": 1.0
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 40,
+          "rate": 0.3333
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 40,
+          "rate": 0.3333
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 80,
+          "rate": 1.0
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "Direct-LLM": {
+      "expected": 641,
+      "detected": 347,
+      "recognized": 343,
+      "conflict_recall": 0.5413,
+      "conflict_recognition_rate": 0.5351,
+      "distinct_pairs_claimed_conflict": 311,
+      "errors": 4,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 64,
+          "rate": 0.7901
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 65,
+          "rate": 0.5417
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 36,
+          "rate": 0.3
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 117,
+          "rate": 0.975
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 14,
+          "rate": 0.175
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 47,
+          "rate": 0.3917
+        }
+      }
+    },
+    "CoT": {
+      "expected": 641,
+      "detected": 136,
+      "recognized": 136,
+      "conflict_recall": 0.2122,
+      "conflict_recognition_rate": 0.2122,
+      "distinct_pairs_claimed_conflict": 62,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 32,
+          "rate": 0.3951
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 10,
+          "rate": 0.0833
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 16,
+          "rate": 0.1333
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 57,
+          "rate": 0.475
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 2,
+          "rate": 0.025
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 19,
+          "rate": 0.1583
+        }
+      }
+    },
+    "Few-shot": {
+      "expected": 641,
+      "detected": 111,
+      "recognized": 111,
+      "conflict_recall": 0.1732,
+      "conflict_recognition_rate": 0.1732,
+      "distinct_pairs_claimed_conflict": 43,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 43,
+          "rate": 0.5309
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 18,
+          "rate": 0.15
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 5,
+          "rate": 0.0417
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 45,
+          "rate": 0.375
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "NLI": {
+      "expected": 641,
+      "detected": 0,
+      "recognized": 0,
+      "conflict_recall": 0.0,
+      "conflict_recognition_rate": 0.0,
+      "distinct_pairs_claimed_conflict": 8,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 0,
+          "rate": 0.0
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "Legal-RAG": {
+      "expected": 641,
+      "detected": 230,
+      "recognized": 214,
+      "conflict_recall": 0.3588,
+      "conflict_recognition_rate": 0.3339,
+      "distinct_pairs_claimed_conflict": 78,
+      "errors": 0,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 43,
+          "rate": 0.5309
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 20,
+          "rate": 0.1667
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 27,
+          "rate": 0.225
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 91,
+          "rate": 0.7583
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 24,
+          "rate": 0.3
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 9,
+          "rate": 0.075
+        }
+      }
+    },
+    "Full-KB": {
+      "expected": 641,
+      "detected": 247,
+      "recognized": 247,
+      "conflict_recall": 0.3853,
+      "conflict_recognition_rate": 0.3853,
+      "distinct_pairs_claimed_conflict": 198,
+      "errors": 2,
+      "by_group": {
+        "C1": {
+          "expected": 81,
+          "recognized": 54,
+          "rate": 0.6667
+        },
+        "C2": {
+          "expected": 120,
+          "recognized": 3,
+          "rate": 0.025
+        },
+        "C3": {
+          "expected": 120,
+          "recognized": 50,
+          "rate": 0.4167
+        },
+        "C4": {
+          "expected": 120,
+          "recognized": 84,
+          "rate": 0.7
+        },
+        "C5": {
+          "expected": 80,
+          "recognized": 38,
+          "rate": 0.475
+        },
+        "C6": {
+          "expected": 120,
+          "recognized": 18,
+          "rate": 0.15
+        }
+      }
+    }
+  }
+}

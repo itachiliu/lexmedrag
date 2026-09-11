@@ -1,0 +1,2762 @@
+[
+  {
+    "rule_id": "QA_个人信息保护法_10_001",
+    "region": "CN",
+    "rule_text": "禁止任何组织或个人非法买卖、提供个人信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第10条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "如何处理境外接收方提出的数据再识别请求？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_19_003",
+    "region": "CN",
+    "rule_text": "规定保存期限应为实现处理目的所必要的最短时间",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第19条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "内地《个人信息保护法》对医疗数据处理的保存期限有何限制？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_24_004",
+    "region": "CN",
+    "rule_text": "不得利用个人信息自动化决策对个人在交易价格等条件上实行不合理差别待遇",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第24条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "内地《个人信息保护法》第24条对医疗 AI“差异化定价”的禁止范围？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_26_005",
+    "region": "CN",
+    "rule_text": "公共场所安装图像采集设备须为维护公共安全所必需，并设显著提示；人脸识别属敏感个人信息，需单独同意",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第26条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "内地《个人信息保护法》第26条对公共场所医疗筛查人脸识别的限制？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_31_006",
+    "region": "CN",
+    "rule_text": "儿童敏感信息处理需监护人同意且期限应最短必要",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第31条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外大学能否要求延长儿童自闭症影像数据保存期？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_55_010",
+    "region": "CN",
+    "rule_text": "处理敏感个人信息、自动化决策、跨境提供、委托处理、公开个人信息等情形须事前进行影响评估",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第55条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "内地《个人信息保护法》第55条要求哪些医疗场景必须开展个人信息保护影响评估？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_三十_011",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者处理敏感个人信息的，除本法第十七条第一款规定的事项外，还应当向个人告知处理敏感个人信息的必要性以及对个人权益的影响；依照本法规定可以不向个人告知的除外。第十七条第一款规定需告知个人信息处理者的名称或姓名和联系方式、处理目的、方式、种类、保存期限等事项",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第三十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案包含的敏感个人信息跨境传输时，处理者需额外告知个人什么内容？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_三十一_012",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者处理不满十四周岁未成年人个人信息的，应当取得未成年人的父母或者其他监护人的同意",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第三十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "未成年人电子健康档案跨境传输需取得谁的同意？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_三十六_015",
+    "region": "CN",
+    "rule_text": "国家机关处理的个人信息应在境内存储；确需向境外提供的，应当进行安全评估",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第三十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "卫健委基层信息系统存储居民健康档案是否必须存境内？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_三十四_016",
+    "region": "CN",
+    "rule_text": "国家机关处理信息不得超出履行法定职责所必需的范围和限度",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第三十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疾控中心在流调中使用患者活动轨迹是否受比例原则限制？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十_017",
+    "region": "CN",
+    "rule_text": "共同处理者应约定各自权利义务，但不影响个人向任一处理者主张权利",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "多家医院联合科研时，如何向受试者告知共同处理者的权利义务？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十一_018",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者委托处理个人信息的，应当与受托人约定委托处理的目的、期限、处理方式、个人信息的种类、保护措施以及双方的权利和义务等，并对受托人的个人信息处理活动进行监督",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "跨境医疗中委托境外机构处理电子健康档案，处理者与受托人需约定哪些内容？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十七_019",
+    "region": "CN",
+    "rule_text": "处理已公开信息不得对个人权益有重大影响，重大时需取得同意",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医学期刊引用患者真实病历，如何确保合法？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十三_020",
+    "region": "CN",
+    "rule_text": "规定：接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "跨境医疗中，电子健康档案数据传输至境外后，境外接收方变更处理目的需遵守什么规定？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十九_021",
+    "region": "CN",
+    "rule_text": "规定：处理敏感个人信息应当取得个人的单独同意；法律、行政法规规定处理敏感个人信息应当取得书面同意的，从其规定。第二十八条规定：敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "跨境医疗中处理包含医疗健康信息的电子健康档案，需取得个人何种形式的同意？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十二_022",
+    "region": "CN",
+    "rule_text": "规定，个人信息处理者因合并、分立、解散、被宣告破产等原因需要转移个人信息的，应当向个人告知接收方的名称或者姓名和联系方式。接收方应当继续履行个人信息处理者的义务。接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App因合并等原因需向境外转移健康数据的，需履行什么义务？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十五_023",
+    "region": "CN",
+    "rule_text": "不得公开其处理的个人信息，取得个人单独同意的除外",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院能否公开发布罕见病病例故事用于宣传？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十八_024",
+    "region": "CN",
+    "rule_text": "处理敏感个人信息应具有特定目的、充分必要性并采取严格保护措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "收集艾滋病检测结果需满足哪些严格保护措施？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十六_025",
+    "region": "CN",
+    "rule_text": "在公共场所安装图像采集设备应为维护公共安全所必需，并设置显著提示",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "在门诊大厅安装人脸识别闸机是否符合“维护公共安全所必需”？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_二十四_026",
+    "region": "CN",
+    "rule_text": "自动化决策应保证公平公正，不得实行不合理差别待遇",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第二十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "使用AI影像辅助诊断系统时，如何防止对特定病种患者的价格歧视？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十_027",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者应当建立便捷的个人行使权利的申请受理和处理机制。拒绝个人行使权利的请求的，应当说明理由",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案跨境传输中，处理者拒绝个人行使权利请求需怎么做？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十一_028",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者应当采取下列措施确保个人信息处理活动符合法律、行政法规的规定，并防止未经授权的访问以及个人信息泄露、篡改、丢失：（三）采取相应的加密、去标识化等安全技术措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案数据跨境传输中，处理者应采取哪些安全技术措施？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十七_029",
+    "region": "CN",
+    "rule_text": "规定：发生或者可能发生个人信息泄露、篡改、丢失的，个人信息处理者应当立即采取补救措施，并通知履行个人信息保护职责的部门和个人。通知应当包括下列事项：（一）发生或者可能发生个人信息泄露、篡改、丢失的信息种类、原因和可能造成的危害；（二）个人信息处理者采取的补救措施和个人可以采取的减轻危害的措施；（三）个人信息处理者的联系方式",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案数据跨境传输发生泄露时，处理者应采取哪些措施？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十三_030",
+    "region": "CN",
+    "rule_text": "规定：本法第三条第二款规定的中华人民共和国境外的个人信息处理者，应当在中华人民共和国境内设立专门机构或者指定代表，负责处理个人信息保护相关事务，并将有关机构的名称或者代表的姓名、联系方式等报送履行个人信息保护职责的部门",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外个人信息处理者处理境内电子健康档案需履行什么义务？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十九_031",
+    "region": "CN",
+    "rule_text": "受托人应采取措施保障个人信息安全，并协助处理者履行义务",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "云服务商受托存储健康数据发生泄露，医院能否要求其承担安全责任？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十二_032",
+    "region": "CN",
+    "rule_text": "处理个人信息达到规定数量的处理者应指定个人信息保护负责人",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "年门诊量超500万人次的医院是否必须设个人信息保护负责人？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十五_033",
+    "region": "CN",
+    "rule_text": "规定：有下列情形之一的，个人信息处理者应当事前进行个人信息保护影响评估，并对处理情况进行记录：（四）向境外提供个人信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案数据跨境传输前，处理者需进行什么评估？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十八_034",
+    "region": "CN",
+    "rule_text": "提供重要互联网平台服务的处理者应成立主要由外部成员组成的独立机构监督个人信息保护",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "大型互联网医疗平台如何建立外部独立监督机构？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十六_035",
+    "region": "CN",
+    "rule_text": "规定：个人信息保护影响评估应当包括下列内容：（一）个人信息的处理目的、处理方式等是否合法、正当、必要；（二）对个人权益的影响及安全风险；（三）所采取的保护措施是否合法、有效并与风险程度相适应",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案数据跨境传输前，处理者的个人信息保护影响评估应包含哪些内容？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_五十四_036",
+    "region": "CN",
+    "rule_text": "规定：个人信息处理者应当定期对其处理个人信息遵守法律、行政法规的情况进行合规审计",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第五十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案跨境传输中，处理者需定期开展什么工作？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_六十九_037",
+    "region": "CN",
+    "rule_text": "处理者不能证明无过错的应承担损害赔偿，按个人损失或处理者获利确定",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第六十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "因医院过错导致基因信息泄露造成患者就业歧视，如何计算赔偿？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_六十六_038",
+    "region": "CN",
+    "rule_text": "可对直接负责人员决定禁止其在一定期限内担任相关企业的董事、监事、高级管理人员",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第六十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院信息科主任因泄露患者数据被处罚后，是否会被禁止担任高管？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_十七_039",
+    "region": "CN",
+    "rule_text": "处理者在处理前应真实、准确、完整地向个人告知名称、联系方式、目的、方式、保存期限等",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "收集患者健康数据时需告知哪些信息？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_十九_040",
+    "region": "CN",
+    "rule_text": "规定：除法律、行政法规另有规定外，个人信息的保存期限应当为实现处理目的所必要的最短时间",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案数据跨境传输的保存期限有何要求？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_十五_041",
+    "region": "CN",
+    "rule_text": "规定，基于个人同意处理个人信息的，个人有权撤回其同意。个人信息处理者应当提供便捷的撤回同意的方式。个人撤回同意，不影响撤回前基于个人同意已进行的个人信息处理活动的效力",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App的健康数据跨境传输中，个人是否有权撤回授权同意？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_十八_042",
+    "region": "CN",
+    "rule_text": "紧急情况下为保护生命健康无法及时告知的，应在紧急情况消除后及时告知",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院在急救场景下无法及时告知时，如何事后补正患者知情权？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_十六_043",
+    "region": "CN",
+    "rule_text": "个人信息处理者不得以个人不同意处理其个人信息为由拒绝提供产品或服务，处理个人信息属于提供产品或服务所必需的除外",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院能否因患者拒绝提供遗传数据而拒绝普通门诊服务？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_四十二_048",
+    "region": "CN",
+    "rule_text": "规定，境外的组织、个人从事侵害中华人民共和国公民的个人信息权益，或者危害中华人民共和国国家安全、公共利益的个人信息处理活动的，国家网信部门可以将其列入限制或者禁止个人信息提供清单，予以公告，并采取限制或者禁止向其提供个人信息等措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第四十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外组织侵害我国用户医疗App健康数据权益的，我国可采取什么措施？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_四十五_049",
+    "region": "CN",
+    "rule_text": "个人有权向处理者查阅、复制其个人信息，处理者应及时提供",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第四十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "患者如何在线查阅和复制自己的完整住院病历？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人信息保护法_四十六_050",
+    "region": "CN",
+    "rule_text": "规定：个人发现其个人信息不准确或者不完整的，有权请求个人信息处理者更正、补充。个人请求更正、补充其个人信息的，个人信息处理者应当对其个人信息予以核实，并及时更正、补充",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人信息保护法》第四十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "个人可要求跨境传输的电子健康档案数据进行更正吗？"
+    },
+    "law": "个人信息保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_15_051",
+    "region": "CN",
+    "rule_text": "、第21条：处理者应在知悉泄露后72小时内向公共当局通报，说明泄露性质、影响、已采取或拟采取的措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第15条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》对医疗数据泄露通报的时限及内容有何要求？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_19_052",
+    "region": "CN",
+    "rule_text": "评估须考虑数据性质、目的、期间、法律规则、专业规则及安全措施；内地",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第19条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门医院把肿瘤基因检测结果发送到内地时，两地对“适当保护水平”评估标准有何差异？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_21_053",
+    "region": "CN",
+    "rule_text": "要求数据处理须通知公共当局，第25条规定非例外处理需公开登记以供查询",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第21条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》对医疗数据处理的公开登记要求有哪些？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_22_054",
+    "region": "CN",
+    "rule_text": "公共当局应在收到完整申请后30日内作出许可决定，特殊情况可延长15日",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第22条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》第22条对医疗 AI SaaS 上线前的许可时限？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_23_055",
+    "region": "CN",
+    "rule_text": "申请须提交处理者身份、目的、数据类别、接收者、保存期限、安全措施、跨境转移等10项信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第23条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》第22条对医疗 AI 算法互联审批需要提交哪些技术文档？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_45_056",
+    "region": "CN",
+    "rule_text": "现有手动档案须在2年内符合第7、8、10、11条规定；可申请历史研究豁免",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第45条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》第45条过渡期内，手动病历如何合规？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_5_057",
+    "region": "CN",
+    "rule_text": "资料应适当、相关且不过量；卫生局指引要求仅收集诊疗所需最少字段",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第5条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》对医疗数据“最小化”原则的具体示例？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料保护法_7_058",
+    "region": "CN",
+    "rule_text": "禁止处理健康、性生活及遗传数据，除非符合法律许可、公共利益或当事人明确同意等例外条件",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料保护法》第7条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "澳门《个人资料保护法》对健康敏感数据的处理有何特殊规定？"
+    },
+    "law": "个人资料保护法"
+  },
+  {
+    "rule_id": "QA_个人资料私隐条例_33_059",
+    "region": "CN",
+    "rule_text": "禁止将医疗数据传输至无同等数据保护水平的司法管辖区",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《个人资料（私隐）条例》第33条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "香港《个人资料（私隐）条例》对医疗数据跨境有何特殊要求？"
+    },
+    "law": "个人资料（私隐）条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_七_060",
+    "region": "CN",
+    "rule_text": "规定：外国组织、个人及其设立或者实际控制的机构不得在我国境内采集我国人类遗传资源",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "外国组织能否在我国境内采集人类遗传资源？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_三_061",
+    "region": "CN",
+    "rule_text": "规定：采集、保藏、利用、对外提供我国人类遗传资源，应当遵守本条例",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "哪些活动需要遵守人类遗传资源管理条例？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_九_062",
+    "region": "CN",
+    "rule_text": "规定：采集、保藏、利用、对外提供我国人类遗传资源，应当符合伦理原则，并按照国家有关规定进行伦理审查",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "采集人类遗传资源时需取得哪些伦理和法律手续？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_二十六_063",
+    "region": "CN",
+    "rule_text": "规定：合作双方应在国际合作活动结束后6个月内共同向国务院科技部门提交合作研究情况报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第二十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国际合作研究结束后需提交哪些报告？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_二十四_064",
+    "region": "CN",
+    "rule_text": "规定：研究过程中的所有记录及数据信息应完全向中方单位开放并提供备份",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第二十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国际合作中人类遗传资源数据如何共享？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_八_065",
+    "region": "CN",
+    "rule_text": "规定：采集、保藏、利用、对外提供我国人类遗传资源，不得危害我国公众健康、国家安全和社会公共利益",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "采集人类遗传资源需遵循哪些基本原则？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_十_066",
+    "region": "CN",
+    "rule_text": "规定：禁止买卖人类遗传资源",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "人类遗传资源是否可以买卖？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_十一_067",
+    "region": "CN",
+    "rule_text": "规定：采集我国重要遗传家系、特定地区人类遗传资源，应当具有法人资格、采集目的明确合法、方案合理、通过伦理审查等条件",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "采集重要遗传家系资源需满足哪些条件？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_十二_068",
+    "region": "CN",
+    "rule_text": "规定：应当事先告知采集目的、用途、健康影响、隐私保护措施及自愿参与和随时退出权利",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "采集人类遗传资源时需告知提供者哪些信息？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_十五_069",
+    "region": "CN",
+    "rule_text": "规定：保藏单位应加强管理监测、制定应急预案、完整记录来源和使用信息并提交年度报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "保藏单位如何管理保藏的人类遗传资源？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国人类遗传资源管理条例_十六_070",
+    "region": "CN",
+    "rule_text": "规定：国家人类遗传资源保藏基础平台和数据库应依法向科研机构、高校、医院、企业开放",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国人类遗传资源管理条例》第十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "保藏的人类遗传资源如何开放共享？"
+    },
+    "law": "中华人民共和国人类遗传资源管理条例"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_一_071",
+    "region": "CN",
+    "rule_text": "为了加强疫苗管理，保证疫苗质量和供应，规范预防接种，促进疫苗行业发展，保障公众健康，维护公共卫生安全，制定本法",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗管理法的立法目的包含哪些方面？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_七十八_072",
+    "region": "CN",
+    "rule_text": "应急预案应包含事件分级、处置体系、预警机制、处置程序、保障措施等",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第七十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗安全事件应急预案应包含哪些内容？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_三十七_073",
+    "region": "CN",
+    "rule_text": "疫苗在储存、运输全过程中应处于规定的温度环境，冷链储存、运输应符合要求",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第三十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗储存运输的温度要求如何规定？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_二十六_074",
+    "region": "CN",
+    "rule_text": "每批疫苗销售前或进口时，应经批签发机构审核、检验，符合要求的发给批签发证明",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第二十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗批签发制度的具体流程是什么？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_五_075",
+    "region": "CN",
+    "rule_text": "疫苗上市许可持有人应当加强疫苗全生命周期质量管理，对疫苗的安全性、有效性和质量可控性负责",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗上市许可持有人的全生命周期质量管理责任有哪些？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_五十七_076",
+    "region": "CN",
+    "rule_text": "疫苗上市许可持有人应制定并实施疫苗上市后风险管理计划，开展上市后研究",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第五十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗上市后风险管理计划包括哪些内容？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_五十二_077",
+    "region": "CN",
+    "rule_text": "预防接种异常反应是指合格疫苗在规范接种后造成受种者损害，相关各方均无过错",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第五十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "预防接种异常反应的定义是什么？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_六十八_078",
+    "region": "CN",
+    "rule_text": "疫苗上市许可持有人应当投保疫苗责任强制保险",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第六十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗责任强制保险的投保主体是谁？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_十九_079",
+    "region": "CN",
+    "rule_text": "申请疫苗注册，应当提供真实、充分、可靠的数据、资料和样品",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗注册申请需提供哪些材料？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_十六_080",
+    "region": "CN",
+    "rule_text": "开展疫苗临床试验，应当经国务院药品监督管理部门依法批准",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗临床试验的审批机构是哪个？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_中华人民共和国疫苗管理法_四十四_081",
+    "region": "CN",
+    "rule_text": "接种单位应具备医疗机构执业许可证、合格医护人员及冷藏设施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《中华人民共和国疫苗管理法》第四十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "接种单位需具备哪些条件？"
+    },
+    "law": "中华人民共和国疫苗管理法"
+  },
+  {
+    "rule_id": "QA_临床试验数据管理工作技术指南_4_082",
+    "region": "CN",
+    "rule_text": "应采用CDISC标准确保数据一致性",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《临床试验数据管理工作技术指南》第4条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "多中心试验中如何统一跨境数据标准？"
+    },
+    "law": "临床试验数据管理工作技术指南"
+  },
+  {
+    "rule_id": "QA_临床试验数据管理技术指南_14_083",
+    "region": "CN",
+    "rule_text": "报告应使用受试者鉴认代码，禁止包含可识别信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《临床试验数据管理技术指南》第14条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药物不良反应报告能否包含患者姓名缩写？"
+    },
+    "law": "临床试验数据管理技术指南"
+  },
+  {
+    "rule_id": "QA_人类遗传资源管理条例实施细则_三十九_084",
+    "region": "CN",
+    "rule_text": "规定，利用我国人类遗传资源开展国际科学研究合作，应当依法分享相关权益；第一百一十三条规定，合作研究情况报告需载明研究成果产出、归属与权益分配情况",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《人类遗传资源管理条例实施细则》第三十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国际合作中使用基因数据产生成果的归属和利益分配，法律上有什么规定？"
+    },
+    "law": "人类遗传资源管理条例实施细则"
+  },
+  {
+    "rule_id": "QA_人类遗传资源管理条例实施细则_二十九_086",
+    "region": "CN",
+    "rule_text": "禁止境外组织等在我国境内采集、保藏或向境外提供我国人类遗传资源",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《人类遗传资源管理条例实施细则》第二十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "个人基因检测数据存储在国外服务器是否合法？"
+    },
+    "law": "人类遗传资源管理条例实施细则"
+  },
+  {
+    "rule_id": "QA_人类遗传资源管理条例实施细则_二十五_087",
+    "region": "CN",
+    "rule_text": "规定，需符合伦理原则并通过伦理审查；第二十六条规定，需获取提供者书面知情同意；第二十八条规定，由中方单位开展相关活动，外方单位不得参与",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《人类遗传资源管理条例实施细则》第二十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "从唾液样本提取基因数据，整个处理过程需遵循哪些法律规范？"
+    },
+    "law": "人类遗传资源管理条例实施细则"
+  },
+  {
+    "rule_id": "QA_人类遗传资源管理条例实施细则_二十八_088",
+    "region": "CN",
+    "rule_text": "规定人类遗传资源保藏需行政许可，第二十九条禁止外方提供我国人类遗传资源；第三十一条要求国际合作行政许可需通过双方伦理审查；第三十七条规定可能影响公共利益的需安全审查，需经科技部受理、评审和审批",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《人类遗传资源管理条例实施细则》第二十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "跨境提供肿瘤组织样本用于基因分析，需办理哪些手续？"
+    },
+    "law": "人类遗传资源管理条例实施细则"
+  },
+  {
+    "rule_id": "QA_人类遗传资源管理条例实施细则_十四_089",
+    "region": "CN",
+    "rule_text": "规定，国际科学研究合作中，利用我国人类遗传资源产生的记录及数据信息应完全向中方单位开放并提供备份，中方单位及其研究人员需全过程、实质性参与研究，依法分享相关权益。成果发表应保障中方权益，符合行政许可要求",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《人类遗传资源管理条例实施细则》第十四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "利用我国人类遗传资源开展国际合作研究，成果发表时需遵循哪些规定？"
+    },
+    "law": "人类遗传资源管理条例实施细则"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_10.2_090",
+    "region": "CN",
+    "rule_text": "规定，发生个人信息安全事件后，个人信息控制者应及时将事件相关情况以邮件、信函、电话、推送通知等方式告知受影响的个人信息主体。难以逐一告知个人信息主体时，应采取合理、有效的方式发布与公众有关的警示信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第10.2条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App健康数据跨境传输发生安全事件时，需如何告知个人？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_5.4_091",
+    "region": "CN",
+    "rule_text": "规定，收集个人敏感信息前应征得明示同意，告知目的、方式、范围等",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第5.4条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "个人全基因组测序数据跨境共享的同意书需包含哪些内容？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_6.3_092",
+    "region": "CN",
+    "rule_text": "规定，传输和存储个人敏感信息时，应采用加密等安全措施；个人生物识别信息应与个人身份信息分开存储；原则上不应存储原始个人生物识别信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第6.3条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App向境外提供健康数据时，对个人敏感信息传输有何安全要求？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_7.5_093",
+    "region": "CN",
+    "rule_text": "规定，在向个人信息主体提供电子商务服务的过程中，根据消费者的兴趣爱好、消费习惯等特征向其提供商品或者服务搜索结果的个性化展示的，应当同时向该消费者提供不针对其个人特征的选项",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第7.5条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App的健康数据跨境传输中，个性化展示数据需满足什么要求？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_9.1_094",
+    "region": "CN",
+    "rule_text": "规定，个人信息控制者应对受委托者进行监督，方式包括但不限于：通过合同等方式规定受委托者的责任和义务；对受委托者进行审计",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第9.1条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App向境外提供健康数据时，对第三方处理者有何监督要求？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_9.2_095",
+    "region": "CN",
+    "rule_text": "规定，个人信息控制者共享、转让个人信息时，应事先开展个人信息安全影响评估，并依评估结果采取有效的保护个人信息主体的措施。跨境传输属于信息共享转让的特殊情形",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第9.2条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App的健康数据跨境传输前，需开展哪种评估？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术个人信息安全规范_9.7_096",
+    "region": "CN",
+    "rule_text": "规定：当个人信息控制者在其产品或服务中接入具备收集个人信息功能的第三方产品或服务且不适用9.1和9.6时，应建立第三方接入管理机制和工作流程，与第三方通过合同明确安全责任及措施，向个人明确标识第三方，留存合同和管理记录等",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 个人信息安全规范》第9.7条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "电子健康档案跨境传输中，第三方接入处理数据需遵守什么规定？"
+    },
+    "law": "信息安全技术 个人信息安全规范"
+  },
+  {
+    "rule_id": "QA_信息安全技术健康医疗数据安全指南_7.14_097",
+    "region": "CN",
+    "rule_text": "规定，如果控制者针对个人健康医疗数据汇聚分析处理之后得到了不能识别个人的健康医疗相关数据，该数据不再属于个人信息，但其使用和披露应遵守国家其他相关法规要求。涉及重要数据的，按国家相关规定处理",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 健康医疗数据安全指南》第7.14条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App的健康数据跨境传输属于重要数据的，需遵守什么规定？"
+    },
+    "law": "信息安全技术 健康医疗数据安全指南"
+  },
+  {
+    "rule_id": "QA_信息安全技术健康医疗数据安全指南_7.15_098",
+    "region": "CN",
+    "rule_text": "规定，控制者因为学术研讨需要，需要向境外提供相应数据的，在进行必要的去标识化处理后，经过数据安全委员会讨论审批同意，数量在250条以内的非涉密非重要数据可以提供，否则应提请相关部门审批",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 健康医疗数据安全指南》第7.15条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App因学术研讨需向境外提供健康数据的数量限制是什么？"
+    },
+    "law": "信息安全技术 健康医疗数据安全指南"
+  },
+  {
+    "rule_id": "QA_信息安全技术健康医疗数据安全指南_7.16_099",
+    "region": "CN",
+    "rule_text": "规定，经主体授权同意，并经数据安全委员会讨论审批同意，不涉及国家秘密且不属于重要数据的，控制者可向境外目的地传送个人健康医疗数据，累计数据量应控制在250条以内，否则应提请相关部门审批",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 健康医疗数据安全指南》第7.16条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App经个人授权向境外传输健康数据的累计数量限制是多少？"
+    },
+    "law": "信息安全技术 健康医疗数据安全指南"
+  },
+  {
+    "rule_id": "QA_信息安全技术健康医疗数据安全指南_7.17_100",
+    "region": "CN",
+    "rule_text": "规定，不将健康医疗数据在境外的服务器中存储，不托管、租赁在境外的服务器；使用云平台的应符合国家相关要求",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《信息安全技术 健康医疗数据安全指南》第7.17条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗App存储的健康数据是否允许存储在境外服务器？"
+    },
+    "law": "信息安全技术 健康医疗数据安全指南"
+  },
+  {
+    "rule_id": "QA_国家健康医疗大数据标准_6_101",
+    "region": "CN",
+    "rule_text": "关键数据应存储于中国境内服务器",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《国家健康医疗大数据标准》第6条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "临床试验数据备份是否需本地化存储？"
+    },
+    "law": "国家健康医疗大数据标准"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_11_102",
+    "region": "CN",
+    "rule_text": "禁止传输未脱敏的重要数据",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第11条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外合作方能否要求原始未脱敏数据？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_8_103",
+    "region": "CN",
+    "rule_text": "关键信息基础设施运营者不得向境外提供重要数据",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第8条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "CRO能否将数据存储在境外公有云？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_9_104",
+    "region": "CN",
+    "rule_text": "重要数据不得存储于境外",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第9条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "临床试验数据能否存储在境外私有云？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_七_105",
+    "region": "CN",
+    "rule_text": "省级网信部门应当自收到材料起5个工作日内完成完备性查验",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "省级网信部门收到医院申报材料后应在多久内完成完备性查验？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_九_106",
+    "region": "CN",
+    "rule_text": "（四）：境外法律环境变化时应采取安全措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外接收方所在国家医疗数据法律变化时，合同应如何设置应变条款？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_六_107",
+    "region": "CN",
+    "rule_text": "需提交评估工作需要的其他材料",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗数据出境评估是否接受英文材料？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估办法_十五_108",
+    "region": "CN",
+    "rule_text": "相关机构和人员应依法保密，不得泄露或非法使用",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估办法》第十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "参与评估的医疗健康数据监管机构人员泄露患者隐私将承担什么责任？"
+    },
+    "law": "数据出境安全评估办法"
+  },
+  {
+    "rule_id": "QA_数据出境安全评估指南_9_109",
+    "region": "CN",
+    "rule_text": "需提供72小时内应急响应预案",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据出境安全评估指南》第9条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "如何评估境外接收方数据泄露应急响应能力？"
+    },
+    "law": "数据出境安全评估指南"
+  },
+  {
+    "rule_id": "QA_数据安全法_21_110",
+    "region": "CN",
+    "rule_text": "关键信息基础设施数据必须通过安全可信通道传输",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据安全法》第21条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "临床试验数据能否通过公共互联网传输？"
+    },
+    "law": "数据安全法"
+  },
+  {
+    "rule_id": "QA_数据安全法_31_111",
+    "region": "CN",
+    "rule_text": "关键信息基础设施系统不得境外远程访问",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《数据安全法》第31条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外大学能否要求实时访问中国医院的PACS影像系统？"
+    },
+    "law": "数据安全法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_七_112",
+    "region": "CN",
+    "rule_text": "第一款禁止处理遗传资料，除非符合第七条第二款例外情形",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院将患者基因检测数据用于商业研究是否合法？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_三_113",
+    "region": "CN",
+    "rule_text": "第三款规定适用于对可识别身份的人的声音和影像的录像监视及取得、处理和传播，只要负责处理资料实体的住所在澳门或通过在澳门设立的供应商实施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "远程医疗平台在澳门境外处理患者影像资料是否适用《澳门个人资料保护法》？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_二十一_114",
+    "region": "CN",
+    "rule_text": "第一款规定应从处理开始起八日内书面通知公共当局",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第二十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院未通知公共当局即开始处理电子病历是否违法？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_二十二_115",
+    "region": "CN",
+    "rule_text": "第一款第一项规定第七条第二款所指敏感资料处理须经公共当局许可",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第二十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "处理基因测序数据是否需要公共当局预先许可？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_五_116",
+    "region": "CN",
+    "rule_text": "第一款第二项规定个人资料应为特定、明确、正当且与负责处理实体活动直接有关的目的而收集，之后不得偏离该目的",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗研究中使用的健康数据是否必须基于特定、明确且正当的目的？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_十_117",
+    "region": "CN",
+    "rule_text": "第一款规定收集资料时应告知处理目的，除非患者已知悉",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院能否在患者不知情时将其病历用于教学示范？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_澳门个人资料保护法_十五_118",
+    "region": "CN",
+    "rule_text": "第二款规定委托处理时应选择能提供足够安全保障的次合同人并监察措施执行",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《澳门个人资料保护法》第十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医院将病历托管给云端服务商需履行哪些义务？"
+    },
+    "law": "澳门个人资料保护法"
+  },
+  {
+    "rule_id": "QA_网络安全标准实践指南_3_119",
+    "region": "CN",
+    "rule_text": "多项非敏感信息组合后可识别健康状态，应整体视为敏感信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《网络安全标准实践指南》第3条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "如何识别临床试验中的\"间接敏感信息\"？"
+    },
+    "law": "网络安全标准实践指南"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_三_120",
+    "region": "CN",
+    "rule_text": "药品生产企业、药品经营企业、医疗机构应当按照规定报告所发现的药品不良反应",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "哪些主体必须履行药品不良反应报告义务？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_三十七_121",
+    "region": "CN",
+    "rule_text": "设立新药监测期的国产药品，应当自取得批准证明文件之日起每满1年提交一次定期安全性更新报告，直至首次再注册",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第三十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "新药监测期内的药品定期安全性更新报告频率是多少？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_三十三_122",
+    "region": "CN",
+    "rule_text": "药品生产企业应填写",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第三十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "境外发生的严重药品不良反应如何报告？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_三十六_123",
+    "region": "CN",
+    "rule_text": "定期安全性更新报告的撰写规范由国家药品不良反应监测中心负责制定",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第三十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "定期安全性更新报告的撰写规范由谁制定？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二_124",
+    "region": "CN",
+    "rule_text": "在中华人民共和国境内开展药品不良反应报告、监测以及监督管理，适用本办法",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品不良反应报告制度的适用范围包括哪些主体？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十_125",
+    "region": "CN",
+    "rule_text": "新药监测期内的国产药品应当报告该药品的所有不良反应",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "新药监测期内的药品需报告哪些不良反应？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十一_126",
+    "region": "CN",
+    "rule_text": "发现或者获知新的、严重的药品不良反应应当在15日内报告，其中死亡病例须立即报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "新的、严重的药品不良反应应在多久内报告？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十七_127",
+    "region": "CN",
+    "rule_text": "获知或者发现药品群体不良事件后，应当立即通过电话或传真等方式报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品群体不良事件的报告时限是多久？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十三_128",
+    "region": "CN",
+    "rule_text": "个人发现新的或者严重的药品不良反应，可以向经治医师、药品生产/经营企业或当地药品不良反应监测机构报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "个人如何报告药品不良反应？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十九_129",
+    "region": "CN",
+    "rule_text": "药品生产企业获知药品群体不良事件后应当立即开展调查，必要时暂停生产、销售、使用和召回相关药品",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十九条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品生产企业在药品群体不良事件中的自查义务包括哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十二_130",
+    "region": "CN",
+    "rule_text": "药品生产企业应当对获知的死亡病例进行调查，并在15日内完成调查报告",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品生产企业对死亡病例的调查要求是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_二十八_131",
+    "region": "CN",
+    "rule_text": "设区的市级、县级药品监督管理部门获知药品群体不良事件后，应当立即与同级卫生行政部门联合组织开展现场调查",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第二十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品群体不良事件的调查流程是怎样的？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_五十二_132",
+    "region": "CN",
+    "rule_text": "国家药品不良反应监测中心应当根据综合分析结果及时发布药品不良反应警示信息",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第五十二条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国家药品不良反应监测中心发布警示信息的依据是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_五十五_133",
+    "region": "CN",
+    "rule_text": "在药品不良反应报告和监测过程中获取的商业秘密、个人隐私、患者和报告者信息应当予以保密",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第五十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品不良反应监测中涉及的隐私信息如何保护？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_五十八_134",
+    "region": "CN",
+    "rule_text": "未建立药品不良反应报告和监测管理制度的，由所在地药品监督管理部门给予警告，责令限期改正，可并处五千元以上三万元以下罚款",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第五十八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品生产企业未建立不良反应监测制度的法律责任是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_八_135",
+    "region": "CN",
+    "rule_text": "设区的市级、县级药品监督管理部门负责本行政区域内药品不良反应报告和监测的管理工作",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第八条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "市级药品监督管理部门在药品不良反应监测中的职责有哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_六_136",
+    "region": "CN",
+    "rule_text": "对已确认发生严重药品不良反应或者药品群体不良事件的药品依法采取紧急控制措施，作出行政处理决定，并向社会公布",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国家食品药品监督管理局在严重药品不良反应事件中的应急管理职责是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_六十_137",
+    "region": "CN",
+    "rule_text": "不配合严重药品不良反应调查的医疗机构，由卫生行政部门给予警告，逾期不改的处三万元以下罚款",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第六十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗机构不配合药品不良反应调查的法律责任是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_六十三_138",
+    "region": "CN",
+    "rule_text": "药品不良反应是指合格药品在正常用法用量下出现的与用药目的无关的有害反应",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第六十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品不良反应的定义是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_六十五_139",
+    "region": "CN",
+    "rule_text": "卫生部和国家食品药品监督管理局对疫苗不良反应报告和监测另有规定的，从其规定",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第六十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "疫苗不良反应报告是否有特殊规定？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_六十六_140",
+    "region": "CN",
+    "rule_text": "医疗机构制剂的不良反应报告和监测管理办法由各省药品监督管理部门会同卫生行政部门制定",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第六十六条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "医疗机构制剂不良反应报告办法由谁制定？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_十_141",
+    "region": "CN",
+    "rule_text": "承担全国药品不良反应报告和监测资料的收集、评价、反馈和上报等技术工作",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第十条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国家药品不良反应监测中心的主要技术职责有哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_十一_142",
+    "region": "CN",
+    "rule_text": "负责本行政区域内药品不良反应报告和监测的技术工作",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "省级药品不良反应监测机构的职责包括哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_十三_143",
+    "region": "CN",
+    "rule_text": "药品生产企业应当设立专门机构并配备专职人员，承担本单位的药品不良反应报告和监测工作",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品生产企业应如何建立药品不良反应报告制度？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_十五_144",
+    "region": "CN",
+    "rule_text": "通过国家药品不良反应监测信息网络报告；不具备在线报告条件的，通过纸质报表报所在地药品不良反应监测机构",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品不良反应报告的途径有哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_四_145",
+    "region": "CN",
+    "rule_text": "国家食品药品监督管理局主管全国药品不良反应报告和监测工作",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第四条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "国家食品药品监督管理局在药品不良反应监测中的职责是什么？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_四十一_146",
+    "region": "CN",
+    "rule_text": "对新药监测期内的药品和首次进口5年内的药品，应当开展重点监测",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第四十一条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品重点监测的适用对象有哪些？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_四十七_147",
+    "region": "CN",
+    "rule_text": "省级药品不良反应监测机构应当每季度对收到的药品不良反应报告进行综合分析，提出风险管理建议",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第四十七条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "省级药品不良反应监测机构每季度需完成哪些工作？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_四十三_148",
+    "region": "CN",
+    "rule_text": "省级以上药品不良反应监测机构负责对药品生产企业开展的重点监测进行监督、检查",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第四十三条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品重点监测的监督主体是谁？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  },
+  {
+    "rule_id": "QA_药品不良反应报告和监测管理办法_四十五_149",
+    "region": "CN",
+    "rule_text": "药品生产企业应采取修改标签和说明书、暂停生产、销售、使用和召回等措施",
+    "rule_category": "条文摘录",
+    "jurisdiction_scope": [
+      "CN"
+    ],
+    "sensitivity_score": 0.6,
+    "metadata": {
+      "source": "《药品不良反应报告和监测管理办法》第四十五条（自问答语料引用片段整理，需核对原文）",
+      "issue_date": "",
+      "revision_history": [],
+      "status": "draft_for_review",
+      "verification_required": true,
+      "derived_from": "data/merge.json 正向上下文",
+      "sample_question": "药品生产企业对已确认严重不良反应的药品应采取哪些措施？"
+    },
+    "law": "药品不良反应报告和监测管理办法"
+  }
+]

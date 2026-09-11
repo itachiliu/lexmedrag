@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T11:29:32",
+    "source": "draft_conflict_gold_query_all_v3.json + conflict_rule_pairs_gold_v3.json",
+    "note": "规则对级指标；仅统计专家已裁决(127对)与模型报冲突的对。"
+  },
+  "queries": 840,
+  "model_conflict_pairs_claimed": 19,
+  "expert_reviewed_pairs": 127,
+  "true_positive_pairs": [
+    {
+      "pair": [
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art8_001"
+      ],
+      "gold": "scenario_dependent"
+    },
+    {
+      "pair": [
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001"
+      ],
+      "gold": "scenario_dependent"
+    },
+    {
+      "pair": [
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art7_002"
+      ],
+      "gold": "scenario_dependent"
+    }
+  ],
+  "false_positive_pairs": [
+    {
+      "pair": [
+        "CN_GDHMD_008",
+        "CN_OUTBOUND_Art7_002"
+      ],
+      "gold": "not_conflict"
+    },
+    {
+      "pair": [
+        "CN_GDHMD_008",
+        "CN_OUTBOUND_Art5_004"
+      ],
+      "gold": "not_conflict"
+    },
+    {
+      "pair": [
+        "CN_GDHMD_008",
+        "CN_PIPL_Art38_001"
+      ],
+      "gold": "not_conflict"
+    },
+    {
+      "pair": [
+        "CN_GDHMD_008",
+        "CN_OUTBOUND_Art8_001"
+      ],
+      "gold": "not_conflict"
+    },
+    {
+      "pair": [
+        "CN_OUTBOUND_Art5_004",
+        "CN_SPI_008"
+      ],
+      "gold": "not_conflict"
+    }
+  ],
+  "unreviewed_model_pairs": 11,
+  "conflict_precision_on_reviewed": 0.375,
+  "crr_extended": {
+    "definition": "gold=待定(pending_stance)的规则对出现在查询中时，模型输出 pending_stance 的比例",
+    "pairs": [
+      [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_OUTBOUND_Art7_002"
+      ]
+    ],
+    "hits": 86,
+    "total": 86,
+    "value": 1.0
+  }
+}

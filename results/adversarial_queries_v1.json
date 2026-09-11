@@ -1,0 +1,1481 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T11:49:14",
+    "dataset": "adversarial_conflict_set",
+    "status": "human_designed_requires_expert_review",
+    "note": "对抗集为人工设计，触发事实与预期冲突对均为构造，非自然分布；不得与自然语料混合计算总体指标。",
+    "groups": {
+      "C1": "阻断条款 vs 境外监管检查",
+      "C2": "GBA禁转 vs 全球药物警戒数据库",
+      "C3": "紧急豁免 vs 人类遗传资源审批",
+      "C4": "删除权 vs 法定留存",
+      "C5": "澳门适当性认定 vs GBA便利化推定",
+      "C6": "次级利用同意口径"
+    }
+  },
+  "queries": [
+    {
+      "query_id": "GBAMC-ADV-C1-001",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "US",
+        "act": "regulatory_inspection",
+        "vol": 87,
+        "t": "2025-02-11T09:00:00",
+        "authority": "FDA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20087,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-002",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "EU",
+        "act": "regulatory_inspection",
+        "vol": 124,
+        "t": "2025-03-12T09:00:00",
+        "authority": "EMA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20124,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-003",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "US",
+        "act": "regulatory_inspection",
+        "vol": 161,
+        "t": "2025-04-13T09:00:00",
+        "authority": "FDA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20161,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-004",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "EU",
+        "act": "regulatory_inspection",
+        "vol": 198,
+        "t": "2025-05-14T09:00:00",
+        "authority": "EMA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20198,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-005",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "regulatory_inspection",
+        "vol": 235,
+        "t": "2025-06-15T09:00:00",
+        "authority": "香港卫生署",
+        "foreign_authority": false,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 20235,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-006",
+      "scenario": "foreign_regulator_pv_inspection",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C1",
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "regulatory_inspection",
+        "vol": 272,
+        "t": "2025-07-16T09:00:00",
+        "authority": "香港卫生署",
+        "foreign_authority": false,
+        "requester_type": "regulatory_authority"
+      },
+      "expected_conflicts": [],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20272,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-001",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1050,
+        "t": "2025-02-11T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21050,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-002",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1300,
+        "t": "2025-03-12T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21300,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-003",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1550,
+        "t": "2025-04-13T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21550,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-004",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1800,
+        "t": "2025-05-14T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21800,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-005",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 2050,
+        "t": "2025-06-15T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "JP",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 22050,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-006",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2300,
+        "t": "2025-07-16T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 22300,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-007",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2550,
+        "t": "2025-08-17T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 22550,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-008",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C2",
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2800,
+        "t": "2025-09-18T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 22800,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-001",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C3",
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 41,
+        "t": "2025-02-11T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20041,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-002",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C3",
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 52,
+        "t": "2025-03-12T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20052,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-003",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C3",
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 63,
+        "t": "2025-04-13T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20063,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-004",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C3",
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 74,
+        "t": "2025-05-14T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20074,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-005",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C3",
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 85,
+        "t": "2025-06-15T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 20085,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-001",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 2,
+        "t": "2025-02-11T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20002,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-002",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 3,
+        "t": "2025-03-12T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20003,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-003",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 1,
+        "t": "2025-04-13T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20001,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-004",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 2,
+        "t": "2025-05-14T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20002,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-005",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 3,
+        "t": "2025-06-15T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 20003,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-006",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C4",
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 1,
+        "t": "2025-07-16T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20001,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-001",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C5",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 800,
+        "t": "2025-02-11T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20800,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-002",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C5",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "telemedicine",
+        "vol": 1100,
+        "t": "2025-03-12T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21100,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-003",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C5",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 1400,
+        "t": "2025-04-13T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21400,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-004",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C5",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "telemedicine",
+        "vol": 1700,
+        "t": "2025-05-14T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 21700,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-005",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C5",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2000,
+        "t": "2025-06-15T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 22000,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-001",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 290,
+        "t": "2025-02-11T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20290,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-002",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 380,
+        "t": "2025-03-12T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20380,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-003",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "基因测序数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 470,
+        "t": "2025-04-13T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20470,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-004",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 560,
+        "t": "2025-05-14T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20560,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-005",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 650,
+        "t": "2025-06-15T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": true,
+        "cumulative_annual_volume": 20650,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-006",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "status": "adversarial_synthetic_requires_review",
+      "adversarial_group": "C6",
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "基因测序数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 740,
+        "t": "2025-07-16T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致",
+      "subject_profile": {
+        "is_ciio": false,
+        "cumulative_annual_volume": 20740,
+        "basis": "synthetic_deterministic",
+        "note": "对抗集合成主体画像，待审核"
+      }
+    }
+  ]
+}

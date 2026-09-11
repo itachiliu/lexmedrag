@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.tiff
+.venv/
+venv/
+.idea/
+.vscode/
+data/synthea/

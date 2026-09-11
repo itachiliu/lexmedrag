@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "LexMedRAG: a knowledge-graph-grounded framework for cross-border medical data compliance"
+message: "If you use this knowledge base, benchmark or code, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Itachi
+    email: itachiliuy@gmail.com
+repository-code: "https://github.com/itachiliu/lexmedrag"
+license: MIT
+abstract: >-
+  Legal knowledge base, GBAMC benchmark, adversarial conflict set, expert annotations
+  and experiment scripts for cross-border medical data compliance.
+keywords:
+  - knowledge graph
+  - legal reasoning
+  - retrieval-augmented generation
+  - cross-border data transfer
+  - medical data compliance

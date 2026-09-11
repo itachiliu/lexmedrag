@@ -1,0 +1,12 @@
+[
+  {
+    "query_id": "example_conflict_001",
+    "conflicts": [
+      {
+        "left_rule_id": "CN_PIPL_Art40_001",
+        "right_rule_id": "CN_GDHMD_002",
+        "verdict": "left_suppresses_right"
+      }
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10",
+    "dataset": "natural GBAMC subset (first 120 queries)",
+    "note": "误报定义为：模型声称存在压制/排除关系，而专家裁决为“无冲突”。"
+  },
+  "methods": {
+    "LexMedRAG（完整）": {
+      "suppression_claims": 0,
+      "reviewed_claims": 0,
+      "false_positives": 0,
+      "false_positive_rate": null,
+      "false_positive_pairs": []
+    },
+    "可废止逻辑（标准 DL）": {
+      "suppression_claims": 80,
+      "reviewed_claims": 17,
+      "false_positives": 17,
+      "false_positive_rate": 1.0,
+      "false_positive_pairs": [
+        [
+          "CN_GDHMD_001",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_SPI_128",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_CSSPG_001",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_SPI_128",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GDHMD_001",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_SPI_107",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_GDHMD_023",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_CSSPG_001",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_SPI_128",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_GDHMD_008",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GDHMD_023",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_GDHMD_008",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_SPI_011",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_SPI_017",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_SPI_017",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GDHMD_001",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_GDHMD_023",
+          "HK_PDPO_S33_NOTE"
+        ]
+      ]
+    },
+    "Direct-LLM（零样本）": {
+      "suppression_claims": 0,
+      "reviewed_claims": 0,
+      "false_positives": 0,
+      "false_positive_rate": null,
+      "false_positive_pairs": []
+    },
+    "Chain-of-Thought": {
+      "suppression_claims": 1,
+      "reviewed_claims": 1,
+      "false_positives": 1,
+      "false_positive_rate": 1.0,
+      "false_positive_pairs": [
+        [
+          "CN_CSSPG_001",
+          "HK_PDPO_DPP3_001"
+        ]
+      ]
+    },
+    "Few-shot（示例引导）": {
+      "suppression_claims": 0,
+      "reviewed_claims": 0,
+      "false_positives": 0,
+      "false_positive_rate": null,
+      "false_positive_pairs": []
+    },
+    "NLI-Style（成对蕴含）": {
+      "suppression_claims": 0,
+      "reviewed_claims": 0,
+      "false_positives": 0,
+      "false_positive_rate": null,
+      "false_positive_pairs": []
+    },
+    "Legal-RAG（检索+生成）": {
+      "suppression_claims": 22,
+      "reviewed_claims": 5,
+      "false_positives": 5,
+      "false_positive_rate": 1.0,
+      "false_positive_pairs": [
+        [
+          "HK_PDPO_DPP3_001",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_GDHMD_001",
+          "CN_SPI_107"
+        ],
+        [
+          "CN_GDHMD_001",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GDHMD_001",
+          "CN_SPI_128"
+        ],
+        [
+          "CN_GDHMD_001",
+          "HK_PDPO_S33_NOTE"
+        ]
+      ]
+    },
+    "Full-KB（无候选筛选）": {
+      "suppression_claims": 76,
+      "reviewed_claims": 30,
+      "false_positives": 23,
+      "false_positive_rate": 0.7667,
+      "false_positive_pairs": [
+        [
+          "CN_GBA_HK_GUIDE_Art5",
+          "HK_PDPO_DPP4_001"
+        ],
+        [
+          "CN_PIPL_Art38_001",
+          "MO_PDPA_Art20_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art2",
+          "CN_PIPL_Art38_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art2",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_PIPL_Art38_001",
+          "HK_PDPO_S33_NOTE"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_DPP1_003"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "CN_PIPL_Art39_001"
+        ],
+        [
+          "CN_HGR_RULES_Art36_001",
+          "CN_OUTBOUND_Art8_001"
+        ],
+        [
+          "CN_HGR_Art28_001",
+          "CN_OUTBOUND_Art5_004"
+        ],
+        [
+          "CN_HGR_RULES_Art36_001",
+          "CN_OUTBOUND_Art5_004"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art5",
+          "CN_PIPL_Art38_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art2",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "HK_PDPO_DPP1_002"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art2",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art8_001",
+          "MO_PDPA_Art20_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "HK_PDPO_DPP3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "MO_PDPA_Art19_002"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "HK_PDPO_DPP1_003"
+        ],
+        [
+          "CN_OUTBOUND_Art7_002",
+          "MO_PDPA_Art20_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art7",
+          "MO_PDPA_Art20_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art8",
+          "CN_OUTBOUND_Art8_001"
+        ],
+        [
+          "CN_OUTBOUND_Art7_002",
+          "HK_PDPO_S33_NOTE"
+        ]
+      ]
+    }
+  }
+}

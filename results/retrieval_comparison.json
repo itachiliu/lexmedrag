@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T21:10:29",
+    "queries_with_resolvable_gold": 175,
+    "rules": 248,
+    "derived_rules": 138,
+    "gold_source": "问答正向上下文中的“法律名+条号”自动匹配（启发式，下界）"
+  },
+  "methods": {
+    "BM25（字符 bigram）": {
+      "recall@1": 0.1657,
+      "recall@3": 0.28,
+      "recall@5": 0.3486,
+      "recall@10": 0.4686,
+      "ndcg@5": 0.2539
+    },
+    "TF-IDF 余弦": {
+      "recall@1": 0.16,
+      "recall@3": 0.2914,
+      "recall@5": 0.3829,
+      "recall@10": 0.4571,
+      "ndcg@5": 0.2701
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "note": "v2→v3 规则 ID 归一映射：PIPL 第28条相关识别条目统一到 CN_SPI 命名空间",
+    "count": 31
+  },
+  "mapping": {
+    "CN_PIPL_Art28_001": "CN_SPI_001",
+    "CN_PIPL_Art28_002": "CN_SPI_002",
+    "CN_PIPL_Art28_003": "CN_SPI_003",
+    "CN_PIPL_Art28_004": "CN_SPI_004",
+    "CN_PIPL_Art28_005": "CN_SPI_005",
+    "CN_PIPL_Art28_006": "CN_SPI_006",
+    "CN_PIPL_007": "CN_SPI_107",
+    "CN_PIPL_Art28_008": "CN_SPI_008",
+    "CN_PIPL_009": "CN_SPI_109",
+    "CN_PIPL_Art28_010": "CN_SPI_010",
+    "CN_PIPL_Art28_011": "CN_SPI_011",
+    "CN_PIPL_Art28_012": "CN_SPI_012",
+    "CN_PIPL_013": "CN_SPI_113",
+    "CN_PIPL_Art28_014": "CN_SPI_014",
+    "CN_PIPL_Art28_015": "CN_SPI_015",
+    "CN_PIPL_Art28_016": "CN_SPI_016",
+    "CN_PIPL_Art28_017": "CN_SPI_017",
+    "CN_PIPL_Art28_018": "CN_SPI_018",
+    "CN_PIPL_Art28_019": "CN_SPI_019",
+    "CN_PIPL_Art28_020": "CN_SPI_020",
+    "CN_PIPL_021": "CN_SPI_121",
+    "CN_PIPL_022": "CN_SPI_122",
+    "CN_PIPL_Art28_023": "CN_SPI_023",
+    "CN_PIPL_Art28_024": "CN_SPI_024",
+    "CN_PIPL_025": "CN_SPI_125",
+    "CN_PIPL_Art28_026": "CN_SPI_026",
+    "CN_PIPL_Art28_027": "CN_SPI_027",
+    "CN_PIPL_028": "CN_SPI_128",
+    "CN_PIPL_Art28_029": "CN_SPI_029",
+    "CN_PIPL_030": "CN_SPI_130",
+    "CN_PIPL_Art28_031": "CN_SPI_031"
+  }
+}

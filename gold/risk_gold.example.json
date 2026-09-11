@@ -1,0 +1,15 @@
+[
+  {
+    "query_id": "example_risk_001",
+    "attributes": ["ICD-10", "hospital_id", "genomic_variant"],
+    "context": {
+      "src": "MO",
+      "dst": "CN",
+      "act": "model_training",
+      "vol": 50000,
+      "t": "2024-11-15"
+    },
+    "expert_risk": 0.93,
+    "annotator": "expert-1"
+  }
+]

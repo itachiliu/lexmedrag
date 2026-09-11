@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T12:02:04",
+    "note": "自然语料与对抗集分别计算，禁止混合统计总体指标。"
+  },
+  "natural": {
+    "dataset": "natural_gbamc",
+    "queries": 840,
+    "gold_pairs": 214,
+    "gold_conflict_pairs": 11,
+    "model_pairs": 158,
+    "model_suppression_claims": 18,
+    "suppression_true_positives": 6,
+    "suppression_false_positives": 5,
+    "suppression_precision": 0.5455,
+    "missed_gold_conflicts": 1,
+    "resolution_agreement": 0.8692,
+    "false_positive_pairs": [
+      [
+        "CN_GBA_MO_GUIDE_Art7",
+        "MO_PDPA_Art19_002"
+      ],
+      [
+        "CN_GBA_MO_GUIDE_Art2",
+        "MO_PDPA_Art19_001"
+      ],
+      [
+        "CN_GBA_MO_GUIDE_Art4",
+        "MO_PDPA_Art19_002"
+      ],
+      [
+        "CN_GBA_MO_GUIDE_Art7",
+        "MO_PDPA_Art19_001"
+      ],
+      [
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art20_001"
+      ]
+    ],
+    "missed_pairs": [
+      [
+        "CN_OUTBOUND_Art5_004",
+        "CN_PIPL_Art40_001"
+      ]
+    ]
+  },
+  "adversarial": {
+    "dataset": "adversarial_human_designed",
+    "queries": 36,
+    "expected_conflicts": 97,
+    "conflict_recall": 1.0,
+    "conflict_recognition_rate": 0.7938,
+    "by_group": {
+      "C1": {
+        "expected": 12,
+        "detected": 12,
+        "recognized": 12,
+        "recognition_rate": 1.0,
+        "verdicts": {
+          "left_suppresses_right": 9,
+          "right_suppresses_left": 3
+        }
+      },
+      "C2": {
+        "expected": 24,
+        "detected": 24,
+        "recognized": 24,
+        "recognition_rate": 1.0,
+        "verdicts": {
+          "right_suppresses_left": 21,
+          "left_suppresses_right": 3
+        }
+      },
+      "C3": {
+        "expected": 15,
+        "detected": 15,
+        "recognized": 15,
+        "recognition_rate": 1.0,
+        "verdicts": {
+          "left_suppresses_right": 15
+        }
+      },
+      "C4": {
+        "expected": 18,
+        "detected": 18,
+        "recognized": 16,
+        "recognition_rate": 0.8889,
+        "verdicts": {
+          "right_suppresses_left": 6,
+          "left_suppresses_right": 10,
+          "not_conflict": 1,
+          "cumulative": 1
+        }
+      },
+      "C5": {
+        "expected": 10,
+        "detected": 10,
+        "recognized": 10,
+        "recognition_rate": 1.0,
+        "verdicts": {
+          "right_suppresses_left": 10
+        }
+      },
+      "C6": {
+        "expected": 18,
+        "detected": 18,
+        "recognized": 0,
+        "recognition_rate": 0.0,
+        "verdicts": {
+          "cumulative": 12,
+          "not_conflict": 6
+        }
+      }
+    }
+  }
+}

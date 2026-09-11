@@ -1,0 +1,3611 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T11:52:23",
+    "model": "deepseek-chat",
+    "sample_size": 36,
+    "workers": 4,
+    "method": "query-conditioned conflict draft over 36 queries and 110-rule KB (CN/GBA/HK/MO/HGR/EU/US/ICH); outbound rules restricted to CN→HK/MO, inbound uses CN domestic rules",
+    "note": "AI 初判，仅作标注候选；专家审核前不进入任何论文指标。",
+    "flag_counts": {
+      "outbound_rule_in_inbound_direction": 0,
+      "normalized_cross_jurisdiction_to_cumulative": 0,
+      "cross_jurisdiction_exclusion_relation": 54,
+      "normalized_weak_norm_to_not_conflict": 1,
+      "normalized_basis_to_none": 1,
+      "normalized_basis_to_lex_specialis": 0,
+      "normalized_element_relationship": 0,
+      "weak_norm_suppresses_strong_norm": 0,
+      "verdict_type_inconsistent": 0,
+      "art5_exemption_misapplied": 0,
+      "reason_verdict_contradiction": 0,
+      "threshold_statement_contradiction": 1,
+      "gba_quantitative_exemption_disputed": 10,
+      "unknown_conflict_type": 0,
+      "unknown_verdict": 0
+    },
+    "assessment_flag_count": 0,
+    "pending_stance_pairs": 6,
+    "dropped_identification_pairs": 0
+  },
+  "items": [
+    {
+      "query_id": "GBAMC-ADV-C1-002",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "EU",
+        "act": "regulatory_inspection",
+        "vol": 124,
+        "t": "2025-03-12T09:00:00",
+        "authority": "EMA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_DSL_Art36_001",
+        "CN_GDHMD_003",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_029",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art41_001",
+        "CN_PV_RETENTION_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "内地法律禁止未经主管机关批准向外国执法机构提供境内数据；EMA检查要求提供，构成真冲突。须经国家主管机关批准后方可提供，或改以去标识化、境内查阅不导出方式满足检查。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art41_001",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "PIPL第41条要求外国执法机构请求须经主管机关批准，未经批准不得提供；与EMA直接调取要求排斥。消解路径：主管机关审批前置，或去标识化后提供、境内查阅不导出。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "ICH E2B(R3)要求电子传输ICSR至监管机构，但内地阻断条款禁止未经批准向外国执法机构提供数据。须经主管机关批准，或采用去标识化、境内查阅不导出等替代传输路径。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "PIPL第39条单独同意与EMA报告义务并行不排斥：可在取得单独同意后履行报告义务；但同意不能替代第41条主管机关批准要求。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art7_002",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "累计20124人且含敏感个人信息，触发第7条安全评估；与EMA报告义务并行，须先完成安全评估并取得单独同意，再行提供。"
+        }
+      ],
+      "assessment": "该操作系内地向欧盟提供ICSR原始记录、诊断及检验数据，属个人信息出境且含敏感个人信息，累计20124人。第5条豁免不适用，应走第7条安全评估；同时触发PIPL第39条单独同意、第41条外国执法机构请求须经主管机关批准，与EMA检查/报告义务形成真冲突，须经批准、去标识化或境内查阅消解。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-004",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "EU",
+        "act": "regulatory_inspection",
+        "vol": 198,
+        "t": "2025-05-14T09:00:00",
+        "authority": "EMA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_DSL_Art36_001",
+        "CN_GDHMD_003",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_029",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art41_001",
+        "CN_PV_RETENTION_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "内地法律禁止未经主管机关批准向外国执法机构提供境内数据；欧盟GVP要求向EMA提交严重不良反应信息。二者义务排斥，应经主管机关批准后提供或去标识化/境内查阅。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art41_001",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "PIPL第41条要求非经主管机关批准不得向外国执法机构提供个人信息；EMA核查要求提供ICSR原始记录。应经主管机关批准，或去标识化后提供、境内查阅不导出。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "ICH E2B(R3)要求ICSR电子传输至监管机构，但内地阻断条款禁止未经批准向外国执法机构提供数据。应经主管机关批准，或采用去标识化、境内查阅方式满足核查。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系境外EMA对境内药物警戒记录进行监管核查，涉及ICSR原始记录、诊断及检验数据出境。内地《数据安全法》第36条、《个人信息保护法》第41条构成阻断条款，与欧盟GVP Module VI及ICH E2B(R3)的全球报告义务形成真冲突；同时PIPL第38/39条出境路径与EMA核查要求亦需协调。消解路径：经主管机关批准、去标识化后提供或境内查阅不导出。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-005",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "regulatory_inspection",
+        "vol": 235,
+        "t": "2025-06-15T09:00:00",
+        "authority": "香港卫生署",
+        "foreign_authority": false,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_PIPL_Art40_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_superior",
+          "reason": "主体为CIIO且累计处理超2万人，依PIPL第40条须境内存储并经安全评估；GBA标准合同指引不豁免该义务，安全评估优先。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation",
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求告知并取得单独同意，香港要求订明同意方可使用；两地各自独立，须同时满足，取较严标准。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "涉及敏感个人信息超1万人，依第7条须申报安全评估；GBA标准合同数量豁免存在争议，但CIIO身份下安全评估优先。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation",
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art38_001",
+          "right_rule_id": "HK_PDPO_S33_NOTE",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求出境须具备安全评估等条件，香港第33条未生效不禁止移转；两者不排斥，须同时满足内地出境条件及香港保障资料原则。"
+        }
+      ],
+      "assessment": "该操作系内地向香港提供ICSR原始记录、诊断及检验数据，属个人信息出境。主体为CIIO且累计处理超2万人，含敏感个人信息，须走安全评估，GBA标准合同不豁免第40条义务。香港卫生署作为监管机构调取数据，与内地出境前置审批及告知同意义务存在张力，应经主管机关审批、去标识化或境内查阅不导出方式消解。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-006",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "regulatory_inspection",
+        "vol": 272,
+        "t": "2025-07-16T09:00:00",
+        "authority": "香港卫生署",
+        "foreign_authority": false,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求向个人告知并取得单独同意，香港要求订明同意方可改变用途；两者均为同意要件，义务不相互排斥，可并行满足，取两地较严标准执行。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "累计20272人且含敏感个人信息，按第7条应申报安全评估；GBA指引对数量限制有豁免争议，官方未明文衔接。两种口径并存，优先按cumulative处理，建议同时准备安全评估与GBA标准合同备案。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_PIPL_Art40_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "subject_profile未标明CIIO身份，第40条适用性保留；若属CIIO或达量，境内存储与安全评估义务优先，GBA标准合同不豁免。当前按非CIIO处理，但需保留说明。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "HK_PDPO_DPP1_003",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地GBA指引要求告知同意且不得向大湾区外提供，香港PDPO要求收集时告知目的及移转对象；两者均为告知义务，可并行履行，不构成冲突。"
+        },
+        {
+          "left_rule_id": "CN_GDHMD_008",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "mandatory_vs_optional",
+          "verdict": "not_conflict",
+          "basis": "none",
+          "reason": "广东省健康医疗数据分类分级规范为团体标准（H=0），不创设法律义务，不得以3级数据要求压制或替代部门规章的出境安全评估义务。",
+          "_flags": [
+            "normalized_weak_norm_to_not_conflict",
+            "normalized_basis_to_none"
+          ]
+        }
+      ],
+      "assessment": "该操作系香港卫生署作为境外监管机构对内地药物警戒数据进行现场检查，涉及ICSR原始记录、诊断及检验数据由内地向香港提供。内地出境制度适用：累计20272人且含敏感个人信息，不适用第5条豁免，应走第7条安全评估或第8条标准合同/认证路径；GBA标准合同指引可作便利化通道但存在数量豁免争议。香港PDPO第33条未生效，跨境移转受保障资料原则规管。人类遗传资源信息若涉及须另行备案。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-001",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1050,
+        "t": "2025-02-11T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁向大湾区外再转移，欧盟GVP要求向EudraVigilance报告；应改走标准合同或安全评估，或在港分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁止再转移至欧盟，ICH E2B(R3)要求ICSR电子传输至监管机构；应改走标准合同或安全评估，或经批准后去标识化提供。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁向大湾区外再转移，FDA要求15日内报告严重非预期不良药物经验；应改走标准合同或安全评估，或在港分流仅上传聚合信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引对标准合同数量限制存在豁免争议：港方材料称敏感超1万人仍可用GBA合同，内地规定晚出且未明文衔接；暂按并存，须同时说明两种口径。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA告知同意不得低于PIPL第39条单独同意标准；两者并行，须向个人告知境外接收方并取得单独同意。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地GBA路径与香港使用限制原则并行适用；向欧盟再转移须同时满足内地出境路径与香港订明同意或目的直接相关要求。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供1050人份药物警戒个例报告、不良事件报告及用药记录，属敏感个人信息出境，且拟经香港再转移至欧盟全球安全数据库。GBA标准合同指引第4条禁止向大湾区以外再转移，与欧盟GVP、ICH E2B(R3)、FDA 21 CFR 314.80的域外报告义务形成真冲突；同时GBA路径与内地敏感个人信息出境门槛存在适用争议。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-002",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1300,
+        "t": "2025-03-12T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外提供，欧盟GVP要求向EudraVigilance报告。消解：香港侧数据分流，仅向美国上传聚合安全信号，或经主管机关批准后去标识化提供。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁止再转移至大湾区外，ICH E2B(R3)要求ICSR电子传输至监管机构。消解：在香港侧完成E2B(R3)本地传输，不将原始个人数据导出至美国数据库。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁止向大湾区外提供，FDA要求15日内报告严重非预期不良药物经验。消解：改走标准合同或安全评估，或在香港侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引对《标准合同办法》第4条数量限制有豁免，但《促进和规范数据跨境流动规定》晚出且未明文衔接。两种口径并存：若按GBA豁免可走标准合同，若按第7条则1万人以上敏感个人信息须安全评估。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引豁免数量限制，第8条要求不满1万人敏感个人信息走标准合同或认证。两种口径并存，建议按较严口径准备安全评估或标准合同备案。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA第4条告知同意不得低于PIPL第39条单独同意标准，两者并行适用，均需履行。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "GBA第4条与香港保障资料第3原则均要求目的限制与同意，两者并行适用，不构成冲突。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供ICSR、不良事件报告及用药记录，属敏感个人信息出境，且香港接收方拟再转移至美国全球安全数据库。GBA标准合同第4条禁止向大湾区以外提供，与欧盟GVP、ICH E2B(R3)、FDA 21 CFR 314.80的域外报告义务构成真冲突；同时GBA数量豁免与《促进和规范数据跨境流动规定》第7/8条存在口径分歧。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-003",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1550,
+        "t": "2025-04-13T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外再转移，EU GVP要求向EudraVigilance报告；义务排斥。应放弃GBA通道改走标准合同或安全评估，或在香港侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外再转移，ICH E2B(R3)要求ICSR电子传输；义务排斥。应改走标准合同或安全评估，或在香港侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外再转移，FDA要求15日内报告严重非预期不良体验；义务排斥。应放弃GBA通道改走标准合同或安全评估，或在香港侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作由内地向香港提供用药记录等敏感个人信息，再向欧盟全球安全数据库再转移。GBA标准合同第4条禁止向大湾区外再转移，与EU GVP、ICH E2B(R3)、FDA 21 CFR 314.80的域外报告义务构成真冲突；应放弃GBA通道改走标准合同或安全评估，或在香港侧数据分流，仅上传聚合安全信号。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-004",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 1800,
+        "t": "2025-05-14T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外再转移，欧盟GVP要求向EudraVigilance报告严重不良反应；二者义务排斥。应改走标准合同或安全评估，或在港侧数据分流，仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "ICH E2B(R3)要求ICSR电子传输至监管机构，GBA第4条禁止向大湾区外提供；全球数据库场景下义务排斥。应改走标准合同或安全评估，或港侧分流仅上传聚合信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "FDA要求15日内报告严重非预期不良药物经验，GBA第4条禁止向美国再转移；构成真冲突。应放弃GBA通道改走标准合同或安全评估，或在港侧数据分流。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引对《出境规定》第4条数量限制作了豁免，但《出境规定》晚于港版指引，衔接未明文。敏感个人信息超1万人时，GBA路径与安全评估门槛存在争议，暂按并存处理。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引豁免数量限制，但《出境规定》第8条要求不满1万人敏感个人信息走标准合同或认证。两口径并存，须在reason中说明，不得单方判定压制。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA第4条告知同意不得低于PIPL第39条单独同意标准；二者并行不排斥，应同时满足告知与单独同意义务。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "GBA第4条限制再转移，香港DPP3限制使用目的；二者均要求目的限制，并行不排斥，应同时遵守。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供1800条药物警戒个例安全性报告、不良事件报告及用药记录，属敏感个人信息出境，且香港接收方拟再转移至美国全球安全数据库。GBA标准合同第4条禁止向大湾区以外提供，与欧盟GVP、ICH E2B(R3)、FDA 21 CFR 314.80的全球报告义务构成真冲突；同时GBA路径与内地敏感个人信息出境门槛存在数量豁免争议。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-005",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 2050,
+        "t": "2025-06-15T09:00:00",
+        "upstream_recipient": "HK",
+        "onward_transfer_to": "JP",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁向大湾区外再转移，欧盟GVP要求向EudraVigilance报告；香港侧应数据分流，仅上传聚合安全信号或经单独授权路径，避免直接再转移。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "ICH E2B(R3)要求ICSR电子传输至监管机构，GBA禁止向大湾区外提供；应在香港侧做数据分流，仅传输去标识化或聚合信号，不直接导出个人数据。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "FDA要求15日内报告严重不良事件，GBA禁止向大湾区外再转移；应通过香港侧分流或境内查阅不导出方式履行报告，避免违反禁转条款。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_PIPL_Art40_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "主体为CIIO且累计22050人敏感个人信息，PIPL第40条要求境内存储并通过安全评估；GBA标准合同指引不豁免CIIO的安全评估义务，应改走安全评估路径。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation",
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art7_002",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "累计22050人敏感个人信息超过1万人，依第7条应申报安全评估；GBA标准合同路径与第7条门槛存在衔接分歧，但CIIO身份下安全评估优先，应放弃GBA通道。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation",
+            "gba_quantitative_exemption_disputed",
+            "threshold_statement_contradiction"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求单独同意，香港要求订明同意；两者构成要件不同但可并行满足，应取较严标准，同时取得单独同意与书面订明同意。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art40_001",
+          "right_rule_id": "HK_PDPO_DPP3_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地CIIO安全评估与香港使用限制原则并行适用，互不排斥；应在通过安全评估后，确保香港侧使用目的限于收集时拟用目的或直接相关用途。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供ICSR、不良事件报告及用药记录（敏感个人信息），且主体为CIIO、累计22050人，触发PIPL第40条安全评估义务，GBA标准合同路径不豁免。香港侧再转日本与GBA第4条禁转条款构成真冲突，需数据分流或改走安全评估。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_HK_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-001",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 41,
+        "t": "2025-02-11T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_HGR_Art28_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "紧急豁免仅免除出境安全评估、标准合同、认证三项，不豁免人遗条例第28条备案与信息备份；人遗程序无紧急例外，须先完成。"
+        },
+        {
+          "left_rule_id": "CN_HGR_RULES_Art36_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "实施细则第36条明确对外提供前须备案并备份，可能影响公众健康、国家安全和社会公共利益的还须安全审查，紧急豁免不能替代该前置程序。"
+        },
+        {
+          "left_rule_id": "CN_HGR_Art7_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "第7条禁止外国组织、个人及其实际控制机构向境外提供我国人类遗传资源；若香港接收方属此类主体，则不得提供，紧急豁免不构成例外。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供基因测序等人类遗传资源信息及敏感个人信息，属紧急出境。第5条第5项紧急豁免仅免除出境路径三项义务，不免除PIPL第39条告知单独同意，也不豁免人遗条例第28条备案、备份及可能的安全审查。人遗程序无紧急例外，须先行完成。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C3",
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序"
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-002",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 52,
+        "t": "2025-03-12T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_HGR_Art28_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "紧急豁免仅免除出境路径三项义务，不免除人遗信息对外提供的备案与信息备份；人遗条例为特别规定，须先完成人遗程序。"
+        },
+        {
+          "left_rule_id": "CN_HGR_RULES_Art36_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "实施细则第36条明确对外提供前须备案并备份，可能影响公众健康等还须安全审查；紧急豁免不覆盖该前置程序。"
+        },
+        {
+          "left_rule_id": "CN_HGR_Art7_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "若接收方属外国组织或个人实际控制机构，条例第7条禁止向境外提供我国人类遗传资源；紧急豁免不能突破该禁止性规定。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供基因测序数据及严重不良事件报告，属人类遗传资源信息出境，须先履行《人类遗传资源管理条例》第28条及实施细则第36条的备案、信息备份与可能的安全审查；紧急豁免仅免除数据出境安全评估、标准合同、认证三项，不免除人遗程序，也不免除PIPL第39条告知与单独同意。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C3",
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序"
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-003",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 63,
+        "t": "2025-04-13T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_HGR_Art28_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "紧急豁免仅免除出境安全评估、标准合同、认证三项，不免除人遗信息对外提供的备案与信息备份义务；人遗条例为特别规定，须先履行备案备份，可能影响公益的还须安全审查。"
+        },
+        {
+          "left_rule_id": "CN_HGR_RULES_Art36_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "实施细则第36条明确人遗信息对外提供前须备案并提交备份，属特别程序；紧急豁免不覆盖该程序，故人遗程序优先，须先完成备案备份及必要安全审查。"
+        },
+        {
+          "left_rule_id": "CN_HGR_Art7_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "第7条禁止外国组织、个人及其实际控制机构向境外提供我国人类遗传资源；若香港接收方属此类主体，则紧急出境许可被禁止性规定压制，不得提供。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供基因测序等人类遗传资源信息及敏感个人信息，紧急豁免仅免除出境路径三项义务，不免除PIPL第39条告知单独同意，也不豁免人遗备案/备份/安全审查。人遗程序与出境路径并行，须先完成人遗程序。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C3",
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序"
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-004",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 74,
+        "t": "2025-05-14T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_HGR_Art28_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "紧急豁免仅免除数据出境安全评估、标准合同、认证三项，不免除人遗信息对外提供的备案与信息备份义务；人遗条例第28条为特别规定，应优先履行。"
+        },
+        {
+          "left_rule_id": "CN_HGR_RULES_Art36_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "实施细则第36条明确人遗信息对外提供前须备案并备份，可能影响公众健康者还须安全审查；紧急豁免不覆盖该程序性义务。"
+        },
+        {
+          "left_rule_id": "CN_HGR_Art7_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "若香港接收方属外国组织或个人实际控制机构，条例第7条禁止向境外提供我国人类遗传资源；紧急豁免不能突破该禁止性规定。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供基因测序数据及严重不良事件报告，属人类遗传资源信息出境，须先完成科技行政部门备案与信息备份，可能影响公众健康者还须安全审查；同时涉及敏感个人信息出境，紧急豁免仅免除出境路径三项义务，不免除PIPL第39条单独同意及人遗程序。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C3",
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序"
+    },
+    {
+      "query_id": "GBAMC-ADV-C3-005",
+      "scenario": "emergency_genetic_analysis_for_adverse_event",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "emergency_genetic_testing",
+        "vol": 85,
+        "t": "2025-06-15T09:00:00",
+        "emergency": true,
+        "public_health_risk": true,
+        "recipient_type": "HK_laboratory"
+      },
+      "X_target": [
+        "基因测序数据",
+        "严重不良事件报告",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_HGR_Art28_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "紧急豁免仅免除数据出境安全评估、标准合同、认证三项，不免除人类遗传资源信息对外提供的备案与信息备份义务；人遗条例为特别规定，应优先履行。"
+        },
+        {
+          "left_rule_id": "CN_HGR_RULES_Art36_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "实施细则第36条明确人遗信息对外提供前须备案并备份，可能影响公众健康、国家安全和社会公共利益的还须安全审查，无紧急例外，紧急豁免不能替代。"
+        },
+        {
+          "left_rule_id": "CN_HGR_Art7_001",
+          "right_rule_id": "CN_OUTBOUND_Art5_5_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "第7条禁止外国组织、个人及其实际控制机构向境外提供我国人类遗传资源；若香港接收方属此类主体，则不得提供，紧急豁免不能对抗该禁止性规定。"
+        }
+      ],
+      "assessment": "该操作由内地向香港提供基因测序数据及严重不良事件报告，属人类遗传资源信息出境，须先履行《人类遗传资源管理条例》第28条及实施细则第36条的备案、信息备份与可能的安全审查；紧急豁免仅免除出境路径义务，不免除人遗程序。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C3",
+      "expected_conflicts": [
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art28_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_RULES_Art36_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_5_001",
+          "CN_HGR_Art7_001"
+        ]
+      ],
+      "expected_resolution": "紧急豁免仅豁免出境路径义务，人遗备案/备份/安全审查无紧急例外，须先完成人遗程序"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-001",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 2,
+        "t": "2025-02-11T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "PIPL第47条删除权以“法律、行政法规规定的保存期限未届满”为例外；药物警戒法定留存义务属特别规定，优先适用，故不删除。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "DPP2保留限制以“法律禁止删除”为例外；内地药物警戒留存规定是否构成香港法下“法律”属场景依赖，若认可则留存优先，否则须删除。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录的法定保存要求构成PIPL第47条“保存期限未届满”例外，删除请求被法定留存义务阻却。"
+        }
+      ],
+      "assessment": "受试者撤回同意要求删除，但药物警戒记录依内地法须法定留存，内地侧构成删除权与法定保存义务冲突，依PIPL第13条第（三）项法定留存化解；香港侧DPP2保留限制以“法律禁止删除”为例外，是否涵盖内地法规属场景依赖。跨境出境门槛因涉敏感个人信息且累计20002人，第5条豁免不适用，须走标准合同或认证路径。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-002",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 3,
+        "t": "2025-03-12T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "PIPL第47条删除权以“保存期限未届满”为例外；药物警戒法定留存义务构成特别规定，内地侧应优先留存，不删除。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "not_conflict",
+          "basis": "contextual",
+          "reason": "DPP2允许“法律禁止删除”时保留；内地药物警戒留存是否属香港法下“法律”存疑，属场景依赖，不必然冲突。"
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录须依法保存以备监管核查，构成PIPL第47条删除权的法定例外，应优先留存。"
+        }
+      ],
+      "assessment": "该操作系内地向香港的删除请求与法定留存冲突。受试者标识、不良事件报告、用药记录属敏感个人信息，且撤回同意。内地侧PIPL第47条删除权与药物警戒法定留存义务冲突，依第13条第（三）项法定留存化解；香港侧DPP2保留限制与内地法定留存是否构成冲突取决于“法律”是否涵盖内地法规，属场景依赖。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-005",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "erasure_request",
+        "vol": 3,
+        "t": "2025-06-15T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "PIPL第47条删除权遇法律、行政法规保存期限未届满时应删除义务中止；药物警戒法定留存属特别规定，优先适用，不得删除。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "DPP2要求目的达成后删除，但法律禁止删除或涉公众利益可保留；内地药物警戒留存是否构成香港法下“法律”属场景依赖，需个案判断，暂按并存处理。"
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录须依法保存以备监管核查，构成PIPL第47条“法律、行政法规规定的保存期限未届满”之例外，删除权受限。"
+        }
+      ],
+      "assessment": "该操作系内地向香港的删除请求，涉及受试者身份标识、不良事件报告、用药记录。内地侧PIPL第47条删除权与药物警戒法定留存义务冲突，依PIPL第13条第（三）项法定留存化解；香港侧DPP2保留限制与内地法定留存是否衔接属场景依赖。CIIO身份下第40条安全评估义务优先，GBA指引不豁免。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-001",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 290,
+        "t": "2025-02-11T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且可撤回；构成要件不同，需取较严者：书面可撤回订明同意并叠加内地单独同意。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境须告知并取得单独同意，香港要求订明同意；两者并行不排斥，应分别满足，且GBA指引第4条不得低于PIPL第39条标准。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "合同必需豁免仅免安全评估、标准合同、认证三项，不免PIPL第39条告知与单独同意；豁免与同意义务并行，须同时履行。"
+        }
+      ],
+      "assessment": "该操作系内地向香港二次使用并出境诊断、检验、用药等敏感医疗数据，触发PIPL第14、39条与香港PDPO订明同意定义冲突，以及PIPL第39条与出境豁免条款的适用冲突；应取两地较严同意要件并分别取得，豁免仅免三项程序，不免告知单独同意。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-002",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 380,
+        "t": "2025-03-12T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且可撤回；两者并行不排斥，应同时满足，取较严要件。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境须告知并取得单独同意，香港须订明同意；并行义务，应分别取得并保持目的范围一致。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "第5条豁免仅免除安全评估、标准合同、认证三项，不免除第39条告知与单独同意，二者不排斥。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA指引第4条告知同意不得低于PIPL第39条单独同意标准，应并行满足，取较严者。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "敏感个人信息超1万人时，GBA指引是否豁免数量限制存在分歧；按并存处理，两种口径均须说明。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        }
+      ],
+      "assessment": "该操作系内地向香港提供诊断、检验、用药等敏感个人信息用于二次使用，触发PIPL第39条单独同意与告知、第14条目的变更重新同意，以及香港PDPO订明同意与使用限制。两地同意要件不一致构成定义性冲突，应取较严者；数量门槛与GBA豁免存在业内分歧，按并存处理。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-003",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 470,
+        "t": "2025-04-13T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "基因测序数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且可撤回；两者构成要件不同但可并行满足，应取较严者：书面可撤回订明同意加内地重新同意。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境须告知境外接收方并取得单独同意，香港须订明同意；两法域同意要件不一致，应分别取得并保持目的范围一致，取较严标准。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "合同必需豁免仅免除安全评估、标准合同或认证三项，不免除PIPL第39条告知与单独同意义务；豁免成立时仍须履行单独同意。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_HGR_Art28_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "基因测序数据属人类遗传资源信息，向香港提供须依条例第28条事先备案并提交信息备份；GBA标准合同备案为并行程序，互不替代。"
+        }
+      ],
+      "assessment": "该操作由内地向香港进行二次使用出境，涉及诊断、检验及基因测序数据，含敏感个人信息与人类遗传资源信息。内地PIPL第39条单独同意、第14条目的变更重新同意与香港PDPO订明同意构成定义性冲突，须取较严者；基因数据另触发人类遗传资源备案与备份义务。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-004",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 560,
+        "t": "2025-05-14T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且未撤回；两地各自成立，可并行履行，取较严要件：书面且可撤回的订明同意并重新取得。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境须单独同意，香港须订明同意；构成要件不同但可同时满足，应分别取得并保持目的范围一致，取较严者。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "第5条豁免仅免除安全评估、标准合同、认证三项，不豁免第39条告知与单独同意；豁免边界明确，二者不排斥。"
+        }
+      ],
+      "assessment": "该操作系内地向香港的医疗数据二次使用出境，560人且含敏感个人信息，不适用第5条豁免；须取得PIPL第39条单独同意并满足HK订明同意，二者构成定义性冲突，应取较严要件分别取得。GBA指引与PIPL第39条为并行告知同意义务，不构成排斥。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-005",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 650,
+        "t": "2025-06-15T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且未撤回；两者并行不排斥，应同时满足，取较严要件。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境需单独同意并告知接收方事项，香港需订明同意；并行义务，应分别取得并保持目的范围一致。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "合同必需豁免仅免除安全评估、标准合同、认证三项，不免除PIPL第39条告知与单独同意义务。"
+        }
+      ],
+      "assessment": "该操作由内地向香港进行二次使用出境，涉及诊断、检验、用药等敏感个人信息650人，且主体为CIIO。内地PIPL第39条单独同意、第40条安全评估与GBA指引第4条告知同意、香港PDPO订明同意及使用限制并行适用；同意要件存在定义性冲突，应取两地较严者分别取得并保持目的范围一致。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C6-006",
+      "scenario": "secondary_use_consent_definition_conflict",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "secondary_use",
+        "vol": 740,
+        "t": "2025-07-16T09:00:00",
+        "purpose_change": true,
+        "contract_necessity_claimed": true,
+        "dual_jurisdiction_subjects": true
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "基因测序数据"
+      ],
+      "candidate_rules": [
+        "CN_GBA_HK_GUIDE_Art2",
+        "CN_GBA_HK_GUIDE_Art4",
+        "CN_GBA_HK_GUIDE_Art5",
+        "CN_GBA_HK_GUIDE_Art8",
+        "CN_HGR_Art28_001",
+        "CN_HGR_Art7_001",
+        "CN_HGR_RULES_Art36_001",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art14_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art14_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地要求目的变更重新取得同意，香港要求订明同意且未撤回；构成要件不同但可并行，取较严者：书面可撤回订明同意加内地单独同意，分别取得并保持目的范围一致。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "HK_PDPO_CONSENT_DEF_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地出境须告知境外接收方并取得单独同意，香港须订明同意；两者不相互排斥，应分别满足，取较严要件合并执行。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art5_1_001",
+          "right_rule_id": "CN_PIPL_Art39_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "not_conflict",
+          "basis": "lex_specialis",
+          "reason": "合同必需豁免仅免除评估、标准合同、认证三项，不免除第39条告知与单独同意；豁免与同意义务并行，须同时满足。"
+        },
+        {
+          "left_rule_id": "CN_GBA_HK_GUIDE_Art4",
+          "right_rule_id": "CN_HGR_Art28_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "基因测序数据出境须向科技行政部门备案并提交信息备份，与GBA标准合同告知同意及备案是并行程序，互不替代，应同时履行。"
+        }
+      ],
+      "assessment": "该操作系内地向香港二次使用并出境诊断、检验及基因数据，涉及敏感个人信息与人类遗传资源信息。内地侧须单独同意、标准合同/评估及人遗备案；香港侧须订明同意且目的变更需重新同意。同意要件两地构成定义性冲突，应取较严者分别取得；人遗备案与网信路径并行不冲突。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C6",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art14_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_PIPL_Art39_001",
+          "HK_PDPO_CONSENT_DEF_001"
+        ],
+        [
+          "CN_OUTBOUND_Art5_1_001",
+          "CN_PIPL_Art39_001"
+        ]
+      ],
+      "expected_resolution": "同意要件取两地较严者：书面且可撤回的订明同意 + 内地单独同意，分别取得并保持目的范围一致"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-006",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2300,
+        "t": "2025-07-16T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_026",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA标准合同禁止向大湾区外再转移，欧盟GVP要求向EudraVigilance报告严重不良反应，义务互斥。应改走标准合同或安全评估，或在港澳侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "ICH E2B(R3)要求ICSR电子传输至监管机构，GBA禁转条款限制向大湾区外提供。应经主管机关批准、去标识化后提供，或改走标准合同/安全评估路径。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "FDA要求15日内报告严重非预期不良反应，GBA禁转条款禁止向大湾区外再转移。应经批准后提供、境内查阅不导出，或改走标准合同/安全评估。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "GBA禁转与澳门PDPA再转移适当性要求并行，均限制向欧盟再转移；澳门侧须个案评估或取得明确同意，内地侧须改走标准合同/安全评估。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "MO_PDPA_Art20_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地单独同意与澳门明确同意系并行义务，澳门同意不能替代PIPL第39条单独同意；应同时满足两地告知同意要求。"
+        }
+      ],
+      "assessment": "该操作由内地向澳门提供ICSR、不良事件报告及用药记录，属敏感个人信息出境，且澳门接收方拟再转移至欧盟全球安全数据库。内地侧应适用PIPL第38/39条及出境门槛规则，GBA标准合同指引第4条禁止向大湾区以外再转移，与欧盟GVP、ICH E2B(R3)、FDA 21 CFR 314.80的全球报告义务构成真冲突；澳门PDPA第19条对再转移的适当性要求亦形成程序前置。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-007",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2550,
+        "t": "2025-08-17T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "US",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_026",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外提供，而EU GVP要求向EudraVigilance报告第三国严重不良反应，义务互斥；应改走标准合同/安全评估或在港澳侧分流，仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁转与ICH E2B(R3)电子传输ICSR要求互斥；应放弃GBA通道，改走标准合同或安全评估，或在港澳侧分流后仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA禁止向大湾区外再转移，FDA要求15日内报告严重非预期不良体验，义务互斥；应改走标准合同/安全评估或在港澳侧分流，仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "GBA第4条禁止向大湾区外提供，澳门PDPA第19条要求目的地适当性；两者均限制再转移，方向一致可并行，但须先满足澳门适当性认定或第20条例外。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "MO_PDPA_Art20_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地单独同意与澳门明确同意系并行义务，互不替代；应同时取得两地要求的同意，且GBA第4条告知同意不得低于PIPL第39条标准。"
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "敏感个人信息超1万人应走标准合同或认证；GBA指引对数量限制有豁免争议，官方未明文衔接，暂按并存处理，须同时说明两种口径。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        }
+      ],
+      "assessment": "该操作由内地向澳门提供用药记录等敏感个人信息，再向美国全球安全数据库再转移。内地出境路径与GBA标准合同第4条禁止向大湾区外提供、澳门PDPA第19条目的地适当性前置、以及域外药物警戒强制报告义务相互排斥，构成真冲突；应放弃GBA通道改走标准合同或安全评估，或在港澳侧分流仅上传聚合安全信号。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C2-008",
+      "scenario": "gba_standard_contract_vs_global_safety_database",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2800,
+        "t": "2025-09-18T09:00:00",
+        "upstream_recipient": "MO",
+        "onward_transfer_to": "EU",
+        "global_safety_database": true,
+        "recipient_is_group_parent": true
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_026",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "EU_GVP_MODULE_VI_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA标准合同禁止再转移至大湾区外，欧盟GVP要求严重不良反应报EudraVigilance；应改走标准合同/安全评估，或在港澳侧分流仅上传聚合安全信号。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "ICSR电子传输要求与GBA禁转大湾区外相排斥；应经主管机关批准、去标识化后提供，或境内查阅不导出、改走其他合规路径。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "FDA要求15日内报告境外严重不良事件，与GBA禁转大湾区外冲突；应放弃GBA通道改走标准合同或安全评估，或做数据分流。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art4",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "cumulative",
+          "basis": "lex_specialis",
+          "reason": "GBA第4条禁转大湾区外与澳门PDPA第19条向欧盟转移须适当性认定并行；澳门主管机关未认定前不得径行再转移，须逐案许可。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "MO_PDPA_Art20_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "内地单独同意与澳门明确同意构成要件不同，须同时满足；澳门同意不能替代PIPL第39条单独同意，应取两地较严要件。"
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "2800人敏感个人信息按第8条应标准合同或认证；GBA指引对数量限制是否豁免存在分歧，暂按并存处理，须同时说明两种口径。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        }
+      ],
+      "assessment": "该操作由内地向澳门提供用药记录等敏感个人信息2800人，并再转移至欧盟全球安全数据库。内地出境路径与GBA标准合同第4条禁转、澳门PDPA第19条适当性前置、欧盟GVP及ICH/FDA报告义务相互排斥，构成真冲突；应放弃GBA通道改走标准合同或安全评估，或在港澳侧分流仅上传聚合安全信号。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C2",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "EU_GVP_MODULE_VI_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "ICH_E2B_R3_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art4",
+          "FDA_21CFR314_80_001"
+        ]
+      ],
+      "expected_resolution": "放弃 GBA 通道改走标准合同或安全评估；或在香港侧做数据分流，仅上传聚合安全信号"
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-001",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 800,
+        "t": "2025-02-11T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_003",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_026",
+        "CN_GDHMD_030",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA指引允许标准合同跨境，但澳门法以目的地适当保护为原则；GPDP未认定内地适当保护，内地便利推定不能替代澳门侧审查，澳门规则优先适用。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_002",
+          "conflict_type": "mandatory_vs_optional",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "澳门法要求无适当性认定时须逐案许可或适用第20条例外；GBA标准合同备案不能替代该个案授权程序，须先取得GPDP许可或援引例外。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "CN_OUTBOUND_Art8_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "pending_stance",
+          "basis": "lex_specialis",
+          "reason": "GBA指引对数量限制是否豁免存在两种口径：一说豁免敏感1万人门槛，一说仍受第8条约束。团队暂按并存处理，须同时评估GBA标准合同与第8条标准合同/认证路径。",
+          "_flags": [
+            "gba_quantitative_exemption_disputed"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "MO_PDPA_Art20_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "none",
+          "reason": "内地要求告知并取得单独同意，澳门法下明确同意是转移例外；两者各自独立，澳门同意不能替代内地单独同意，须并行满足。"
+        }
+      ],
+      "assessment": "该操作系内地向澳门提供药物警戒数据，属出境方向。澳门GPDP未作适当性认定且要求逐案许可，内地GBA便利安排不能替代澳门侧前置审查，构成程序冲突。数据含敏感个人信息，第5条豁免不适用；GBA数量豁免存在两种口径，暂按并存处理。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C5",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查"
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-002",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "telemedicine",
+        "vol": 1100,
+        "t": "2025-03-12T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_003",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_026",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "GBA指引允许以标准合同便利流动，但澳门第19条以目的地适当保护为原则；GPDP未认定内地适当性时，内地便利推定不能替代澳门侧审查，须逐案许可或适用第20条例外。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_002",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "澳门法要求无适当性认定时由GPDP个案决定，属强制前置；GBA标准合同仅为内地侧便利路径，不能免除澳门侧逐案授权，故澳门规则优先适用。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系内地向澳门提供诊断、检验、用药等敏感医疗数据，且GPDP未作适当性认定、要求逐案许可。内地侧须走PIPL第38/39条及出境门槛路径，澳门侧须经第19/20条个案审查，GBA便利安排不能替代澳门前置程序，构成真冲突。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C5",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查"
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-003",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 1400,
+        "t": "2025-04-13T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_003",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_026",
+        "CN_GDHMD_030",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GBA指引允许以标准合同跨境提供，但澳门法要求接收地具适当保护程度；GPDP未认定内地适当，故澳门侧审查前置，内地便利不能替代。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_002",
+          "conflict_type": "mandatory_vs_optional",
+          "verdict": "right_suppresses_left",
+          "basis": "contextual",
+          "reason": "GPDP未作适当性认定时，澳门法要求逐案许可或适用第20条例外；GBA标准合同备案不构成澳门侧个案授权，须先满足澳门前置程序。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系内地向澳门提供诊断、检验、用药等敏感个人信息1400人份，用于药物警戒。内地侧须走PIPL第38/39条路径并单独同意；澳门侧GPDP未作适当性认定，须逐案许可或适用第20条例外。GBA指引便利安排不能替代澳门侧前置审查，构成冲突。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C5",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查"
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-004",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "telemedicine",
+        "vol": 1700,
+        "t": "2025-05-14T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_003",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_026",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "GBA指引允许以标准合同跨境，但澳门PDPA第19条要求目的地具适当保护水平；GPDP未认定内地适当，内地便利推定不能替代澳门侧审查，须逐案许可或适用第20条例外。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_002",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "澳门法在无适当性认定时要求GPDP逐案决定，构成程序前置；内地GBA标准合同备案不能替代该个案授权，须先取得澳门侧许可或适用第20条例外。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系内地向澳门提供诊断、检验检查、用药等敏感医疗数据，属出境方向。内地侧须依PIPL第39条取得单独同意，并因涉及敏感个人信息且累计1.7万人，不适用第5条豁免，应按第8条订立标准合同或认证；澳门侧GPDP未作适当性认定，须逐案许可或适用第20条例外。GBA指引便利安排不能替代澳门侧前置审查，构成冲突。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C5",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查"
+    },
+    {
+      "query_id": "GBAMC-ADV-C5-005",
+      "scenario": "mo_adequacy_vs_gba_facilitation",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "MO",
+        "act": "pharmacovigilance",
+        "vol": 2000,
+        "t": "2025-06-15T09:00:00",
+        "gpdp_adequacy_decision": false,
+        "host_authority_requirement": "case_by_case_authorisation"
+      },
+      "X_target": [
+        "诊断记录（ICD-10）",
+        "检验检查数据",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_GBA_MO_GUIDE_Art2",
+        "CN_GBA_MO_GUIDE_Art4",
+        "CN_GBA_MO_GUIDE_Art7",
+        "CN_GDHMD_003",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_026",
+        "CN_GDHMD_030",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_SPI_008",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001",
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art19_002",
+        "MO_PDPA_Art20_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "GBA指引允许以标准合同跨境，但澳门法以目的地适当保护为原则；GPDP未认定内地适当，GBA便利不能替代澳门侧审查，须先满足澳门法要求。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_GBA_MO_GUIDE_Art2",
+          "right_rule_id": "MO_PDPA_Art19_002",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "澳门法要求无适当性认定时逐案许可或适用第20条例外；内地GBA标准合同路径不豁免该前置程序，须经GPDP个案批准或改走例外。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系内地向澳门提供诊断、检验、用药等敏感个人信息，且主体为CIIO、GPDP未作适当性认定并要求逐案许可。内地侧须走安全评估等出境路径，澳门侧须逐案审查，GBA便利安排不能替代澳门前置程序，构成真冲突。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C5",
+      "expected_conflicts": [
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_002"
+        ]
+      ],
+      "expected_resolution": "GPDP 未就内地作出适当性认定时，须逐案许可或适用第20条例外；内地便利推定不能替代澳门侧审查"
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-001",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "US",
+        "act": "regulatory_inspection",
+        "vol": 87,
+        "t": "2025-02-11T09:00:00",
+        "authority": "FDA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_DSL_Art36_001",
+        "CN_GDHMD_003",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_029",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art41_001",
+        "CN_PV_RETENTION_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "内地法律禁止未经主管机关批准向外国执法机构提供境内数据，FDA要求提供药物警戒记录，义务相互排斥；应经主管机关批准或去标识化/境内查阅不导出。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art41_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "PIPL第41条要求外国执法机构请求须经主管机关批准，FDA检查要求直接提供个人信息，构成真冲突；消解路径为审批前置、去标识化或境内查阅。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "ICH E2B(R3)要求电子传输ICSR至监管机构，但内地阻断条款禁止未经批准向外国执法机构提供数据；应经批准或去标识化后传输。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art38_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "cumulative",
+          "basis": "contextual",
+          "reason": "PIPL第38条要求出境具备安全评估、认证或标准合同等条件，FDA要求提供报告；两者非排斥，可并行履行，但须先满足出境合规路径。"
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art39_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "none",
+          "reason": "PIPL第39条要求告知并取得单独同意，FDA要求报告药物警戒信息；两者义务并行不排斥，可同时履行。"
+        },
+        {
+          "left_rule_id": "CN_OUTBOUND_Art8_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "parallel_obligations",
+          "verdict": "cumulative",
+          "basis": "none",
+          "reason": "累计20087人且含敏感个人信息，第5条豁免不适用，应按第8条订立标准合同或认证；与FDA报告义务并行，可同时履行。"
+        }
+      ],
+      "assessment": "该操作系FDA对境内药物警戒记录开展监管检查，涉及ICSR原始记录、诊断及检验数据出境至美国。内地《数据安全法》第36条、《个人信息保护法》第41条构成阻断条款，与FDA 21 CFR 314.80及ICH E2B(R3)的域外提供/报告要求形成真冲突；同时触发PIPL第38/39条出境路径与单独同意义务。因涉及敏感个人信息且累计20087人，第5条豁免不适用，应按第8条订立标准合同或认证。建议经主管机关批准、去标识化后提供或境内查阅不导出。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C1-003",
+      "scenario": "foreign_regulator_pv_inspection",
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "US",
+        "act": "regulatory_inspection",
+        "vol": 161,
+        "t": "2025-04-13T09:00:00",
+        "authority": "FDA",
+        "foreign_authority": true,
+        "requester_type": "regulatory_authority"
+      },
+      "X_target": [
+        "个例安全性报告（ICSR）原始记录",
+        "受试者诊断记录（ICD-10）",
+        "检验检查数据"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_DSL_Art36_001",
+        "CN_GDHMD_003",
+        "CN_GDHMD_006",
+        "CN_GDHMD_008",
+        "CN_GDHMD_022",
+        "CN_GDHMD_025",
+        "CN_GDHMD_029",
+        "CN_GDHMD_030",
+        "CN_GDHMD_039",
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art5_1_001",
+        "CN_OUTBOUND_Art5_5_001",
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001",
+        "CN_PIPL_Art38_001",
+        "CN_PIPL_Art39_001",
+        "CN_PIPL_Art40_001",
+        "CN_PIPL_Art41_001",
+        "CN_PV_RETENTION_001",
+        "EU_GVP_MODULE_VI_001",
+        "FDA_21CFR314_80_001",
+        "ICH_E2B_R3_001"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "内地法律禁止未经主管机关批准向外国执法机构提供境内数据；FDA要求提供药物警戒记录。应经主管机关审批前置，或去标识化后提供、境内查阅不导出。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_PIPL_Art41_001",
+          "right_rule_id": "FDA_21CFR314_80_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "PIPL第41条要求非经主管机关批准不得向外国执法机构提供境内个人信息；FDA检查要求提供含个人信息的记录。须经批准，或去标识化、境内查阅。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_DSL_Art36_001",
+          "right_rule_id": "ICH_E2B_R3_001",
+          "conflict_type": "permission_vs_prohibition",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_superior",
+          "reason": "ICH E2B(R3)要求ICSR电子传输至监管机构；内地法律禁止未经批准向外国执法机构提供境内数据。应经主管机关批准，或去标识化后提供、境内查阅不导出。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        }
+      ],
+      "assessment": "该操作系FDA对境内药物警戒记录开展监管核查，涉及ICSR原始记录、ICD-10诊断及检验检查数据由内地向美国提供。内地《数据安全法》第36条、《个人信息保护法》第41条构成向外国执法机构提供数据的阻断与审批前置；FDA 21 CFR 314.80及ICH E2B(R3)则要求向境外监管机构提交/提供药物警戒数据。二者义务相互排斥，构成真冲突，应经主管机关批准、去标识化后提供或境内查阅不导出。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C1",
+      "expected_conflicts": [
+        [
+          "CN_DSL_Art36_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_PIPL_Art41_001",
+          "FDA_21CFR314_80_001"
+        ],
+        [
+          "CN_DSL_Art36_001",
+          "ICH_E2B_R3_001"
+        ]
+      ],
+      "expected_resolution": "三种消解路径：主管机关审批前置；去标识化后提供；境内查阅不导出（on-site review）"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-003",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 1,
+        "t": "2025-04-13T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_CSSPG_001",
+        "CN_GDHMD_026",
+        "CN_GDHMD_029",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "CN_SPI_107",
+        "CN_SPI_109",
+        "CN_SPI_113",
+        "CN_SPI_121",
+        "CN_SPI_122",
+        "CN_SPI_125",
+        "CN_SPI_128",
+        "CN_SPI_130",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "PIPL第47条删除权以“保存期限未届满”为例外；药物警戒记录法定留存义务属特别规定，期限未满时排除删除请求，应继续保存。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "香港DPP2要求目的达成后删除，但“法律禁止删除”可作例外；内地药物警戒留存是否构成该例外属场景依赖，若适用则不得删除，否则应删除。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录的法定保存要求，构成PIPL第47条删除权的特别例外；保存期限未届满时不得依撤回同意删除。"
+        }
+      ],
+      "assessment": "该操作系香港向内地请求删除受试者标识、不良事件报告及用药记录，但内地药物警戒法定留存义务要求保存，构成删除请求与法定保存的跨法域真冲突。内地侧依PIPL第13条第（三）项及第47条但书，法定保存期限未届满不得删除；香港侧DPP2的删除例外是否涵盖内地法规属场景依赖。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-004",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 2,
+        "t": "2025-05-14T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_CSSPG_001",
+        "CN_GDHMD_026",
+        "CN_GDHMD_029",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "CN_SPI_107",
+        "CN_SPI_109",
+        "CN_SPI_113",
+        "CN_SPI_121",
+        "CN_SPI_122",
+        "CN_SPI_125",
+        "CN_SPI_128",
+        "CN_SPI_130",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "撤回同意触发删除权，但药物警戒记录负法定留存义务；PIPL第47条自身设有“法律、行政法规规定的保存期限未届满”例外，故法定留存优先，删除请求就该部分不予执行。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "DPP2要求目的达成后删除，除非法律禁止删除或删除违反公众利益；内地药物警戒留存是否构成该“法律”例外，取决于香港法下对境外法律及公众利益的解释，属场景依赖，若认定涵盖则留存优先。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录须依法保存以备监管核查，属PIPL第47条“法律、行政法规规定的保存期限未届满”情形，删除权让位于该法定留存义务。"
+        }
+      ],
+      "assessment": "该操作系香港向内地提出删除请求，内地出境制度不适用。核心冲突在于：受试者撤回同意后依PIPL第47条应删除，但药物警戒记录依PIPL第13条第3项及药物警戒保存规定须法定留存，构成义务排斥，内地侧以法定留存优先；香港侧DPP2保留限制是否让位于内地法定留存，取决于“法律”是否涵盖内地法规，属场景依赖。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    },
+    {
+      "query_id": "GBAMC-ADV-C4-006",
+      "scenario": "consent_withdrawal_vs_statutory_retention",
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "erasure_request",
+        "vol": 1,
+        "t": "2025-07-16T09:00:00",
+        "consent_withdrawn": true,
+        "retention_obligation": "pharmacovigilance_records"
+      },
+      "X_target": [
+        "受试者身份标识",
+        "不良事件报告",
+        "用药记录"
+      ],
+      "candidate_rules": [
+        "CN_ADR_MEASURES_RETENTION_001",
+        "CN_CSSPG_001",
+        "CN_GDHMD_026",
+        "CN_GDHMD_029",
+        "CN_PIPL_Art13_3_001",
+        "CN_PIPL_Art47_001",
+        "CN_PV_RETENTION_001",
+        "CN_SPI_008",
+        "CN_SPI_107",
+        "CN_SPI_109",
+        "CN_SPI_113",
+        "CN_SPI_121",
+        "CN_SPI_122",
+        "CN_SPI_125",
+        "CN_SPI_128",
+        "CN_SPI_130",
+        "HK_PDPO_CONSENT_DEF_001",
+        "HK_PDPO_DPP1_002",
+        "HK_PDPO_DPP1_003",
+        "HK_PDPO_DPP2_001",
+        "HK_PDPO_DPP3_001",
+        "HK_PDPO_DPP4_001",
+        "HK_PDPO_S33_NOTE"
+      ],
+      "conflicts_ai_draft": [
+        {
+          "left_rule_id": "CN_PIPL_Art47_001",
+          "right_rule_id": "CN_PV_RETENTION_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "right_suppresses_left",
+          "basis": "lex_specialis",
+          "reason": "PIPL第47条但书明确法律、行政法规规定的保存期限未届满时不得删除；药物警戒记录保存规定属特别留存义务，优先于个人删除请求。"
+        },
+        {
+          "left_rule_id": "CN_PV_RETENTION_001",
+          "right_rule_id": "HK_PDPO_DPP2_001",
+          "conflict_type": "obligation_vs_permission",
+          "verdict": "left_suppresses_right",
+          "basis": "contextual",
+          "reason": "香港DPP2要求删除，内地药物警戒留存要求保存，义务相互排斥。香港侧删除例外是否涵盖内地法规属场景依赖；若涵盖则留存优先，否则需经主管机关协调或去标识化后境内留存。",
+          "_flags": [
+            "cross_jurisdiction_exclusion_relation"
+          ]
+        },
+        {
+          "left_rule_id": "CN_ADR_MEASURES_RETENTION_001",
+          "right_rule_id": "CN_PIPL_Art47_001",
+          "conflict_type": "general_vs_exception",
+          "verdict": "left_suppresses_right",
+          "basis": "lex_specialis",
+          "reason": "药品不良反应监测档案与报告记录的法定保存义务构成PIPL第47条但书情形，个人删除权不得对抗该特别留存要求。"
+        }
+      ],
+      "assessment": "香港受试者撤回同意后要求删除数据，但内地药物警戒法定留存义务要求继续保存。内地侧依PIPL第13条第（三）项及第47条但书，法定留存优先于删除请求；香港侧DPP2的删除例外是否涵盖内地法规属场景依赖。两法域义务相互排斥，构成真冲突，需以法定留存为优先并限制后续使用。",
+      "status": "draft_requires_expert_review",
+      "adversarial_group": "C4",
+      "expected_conflicts": [
+        [
+          "CN_PIPL_Art47_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "HK_PDPO_DPP2_001",
+          "CN_PV_RETENTION_001"
+        ],
+        [
+          "CN_PIPL_Art47_001",
+          "CN_ADR_MEASURES_RETENTION_001"
+        ]
+      ],
+      "expected_resolution": "内地侧依 PIPL 第13条第（三）项法定留存化解；香港侧取决于“法律”是否涵盖内地法规，属场景依赖"
+    }
+  ]
+}

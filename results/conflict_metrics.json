@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T11:47:45",
+    "draft": "results/draft_conflict_gold_query_all_v4.json",
+    "gold": "gold/conflict_rule_pairs_gold_v4.json",
+    "note": "规则对级指标；只在专家已裁决的规则对上比较。"
+  },
+  "model_pairs": 148,
+  "model_suppression_claims": 4,
+  "reviewed_overlap": 132,
+  "suppression_true_positives": 3,
+  "suppression_false_positives": 1,
+  "suppression_precision": 0.75,
+  "unreviewed_claims": 0,
+  "gold_conflict_pairs": 11,
+  "missed_gold_conflicts": 1,
+  "resolution_agreement": 0.9242,
+  "details": {
+    "true_positives": [
+      [
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art8_001"
+      ],
+      [
+        "CN_OUTBOUND_Art7_002",
+        "CN_OUTBOUND_Art8_001"
+      ],
+      [
+        "CN_OUTBOUND_Art5_004",
+        "CN_OUTBOUND_Art7_002"
+      ]
+    ],
+    "false_positives": [
+      [
+        "MO_PDPA_Art19_001",
+        "MO_PDPA_Art20_001"
+      ]
+    ],
+    "missed": [
+      [
+        "CN_OUTBOUND_Art5_004",
+        "CN_PIPL_Art40_001"
+      ]
+    ],
+    "unreviewed": []
+  }
+}

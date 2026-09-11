@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T20:24:51",
+    "note": "gold_rules 来自真实引用自动匹配，risk_draft 为派生草稿；均需专家审核后才可作为论文 gold。"
+  },
+  "items": [
+    {
+      "query_id": "qa_0000",
+      "question": "多家医院联合科研时，如何向受试者告知共同处理者的权利义务？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0001",
+      "question": "医院并购后，原患者的健康数据如何合法转移给新主体？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0002",
+      "question": "医院向保险公司提供患者就诊记录前，应如何取得单独同意？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0003",
+      "question": "卫健委基层信息系统存储居民健康档案是否必须存境内？",
+      "category": "医疗健康",
+      "type": "跨境传输",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0004",
+      "question": "互联网医院向美国服务器传输肿瘤基因测序原始数据，应满足哪些条件？",
+      "category": "医疗健康",
+      "type": "跨境传输",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0005",
+      "question": "临床试验数据跨境传输前，需向受试者告知哪些事项？",
+      "category": "医疗健康",
+      "type": "跨境传输",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0006",
+      "question": "处理超过100万条患者个人信息的大型医院是否必须在境内存储全部数据？",
+      "category": "医疗健康",
+      "type": "跨境传输",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0007",
+      "question": "外国法院要求中国医院提供境内患者病历用于诉讼，医院可否直接提供？",
+      "category": "医疗健康",
+      "type": "跨境传输",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0008",
+      "question": "医院违法泄露患者传染病信息可能面临怎样的行政处罚？",
+      "category": "医疗健康",
+      "type": "法律责任",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0009",
+      "question": "因医院过错导致基因信息泄露造成患者就业歧视，如何计算赔偿？",
+      "category": "医疗健康",
+      "type": "法律责任",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0010",
+      "question": "医院能否以“履行法定职责”为由，不经同意向疾控中心报送传染病个案？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0011",
+      "question": "两家三甲医院共建罕见病数据库，如何划分共同处理责任？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0012",
+      "question": "医院集团内部重组，患者数据跨院区迁移需履行哪些程序？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0013",
+      "question": "医药代表要求医院提供肿瘤患者名单用于新药招募，医院应如何处理？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    },
+    {
+      "query_id": "qa_0014",
+      "question": "卫健委要求基层医院上传居民电子健康档案，是否适用国家机关处理规则？",
+      "category": "医疗健康",
+      "type": "数据共享",
+      "gold_rules_draft": [],
+      "risk_draft": null,
+      "risk_draft_method": "max(sensitivity_score of citation-matched rules)",
+      "status": "draft_requires_expert_review"
+    }
+  ]
+}

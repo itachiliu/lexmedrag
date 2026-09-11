@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T20:17:19",
+    "method": "character-bigram BM25 over 72 rules; gold matched by law+article citations",
+    "note": "检索 pilot：结果只在真实知识库上可复现，不能直接充当论文实验数据；gold 匹配为启发式近似，正式实验需专家标注。"
+  },
+  "queries_total": 989,
+  "queries_with_gold": 70,
+  "gold_size": {
+    "min": 1,
+    "max": 23,
+    "mean": 22.6857
+  },
+  "metrics": {
+    "recall@5": 0.2006,
+    "ndcg@5": 0.8656
+  }
+}

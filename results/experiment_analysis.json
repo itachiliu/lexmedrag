@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T20:38:32",
+    "note": "补充实验分析：bootstrap 置信区间、错误分解、组件消融、候选统计。"
+  },
+  "adversarial": {
+    "LexMedRAG": {
+      "recognition": 0.7192,
+      "ci95": [
+        0.6864,
+        0.7535
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 1.0,
+        "C2": 1.0,
+        "C3": 0.725,
+        "C4": 0.8833,
+        "C5": 0.8375,
+        "C6": 0.0
+      }
+    },
+    "DL": {
+      "recognition": 0.5632,
+      "ci95": [
+        0.5242,
+        0.6037
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 1.0,
+        "C2": 1.0,
+        "C3": 0.3333,
+        "C4": 0.3333,
+        "C5": 1.0,
+        "C6": 0.0
+      }
+    },
+    "Direct-LLM": {
+      "recognition": 0.5351,
+      "ci95": [
+        0.4961,
+        0.5741
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.7901,
+        "C2": 0.5417,
+        "C3": 0.3,
+        "C4": 0.975,
+        "C5": 0.175,
+        "C6": 0.3917
+      }
+    },
+    "Full-KB": {
+      "recognition": 0.3853,
+      "ci95": [
+        0.3463,
+        0.4243
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.6667,
+        "C2": 0.025,
+        "C3": 0.4167,
+        "C4": 0.7,
+        "C5": 0.475,
+        "C6": 0.15
+      }
+    },
+    "Legal-RAG": {
+      "recognition": 0.3339,
+      "ci95": [
+        0.2995,
+        0.3729
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.5309,
+        "C2": 0.1667,
+        "C3": 0.225,
+        "C4": 0.7583,
+        "C5": 0.3,
+        "C6": 0.075
+      }
+    },
+    "CoT": {
+      "recognition": 0.2122,
+      "ci95": [
+        0.181,
+        0.2434
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.3951,
+        "C2": 0.0833,
+        "C3": 0.1333,
+        "C4": 0.475,
+        "C5": 0.025,
+        "C6": 0.1583
+      }
+    },
+    "Few-shot": {
+      "recognition": 0.1732,
+      "ci95": [
+        0.1451,
+        0.2028
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.5309,
+        "C2": 0.15,
+        "C3": 0.0417,
+        "C4": 0.375,
+        "C5": 0.0,
+        "C6": 0.0
+      }
+    },
+    "NLI": {
+      "recognition": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_pairs": 641,
+      "by_group": {
+        "C1": 0.0,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0
+      }
+    }
+  },
+  "error_analysis": {
+    "model_suppression_claims": 18,
+    "false_positive_pairs": 5,
+    "false_positive_by_family": {
+      "跨法域": 4,
+      "同法域": 1
+    },
+    "false_positive_detail": [
+      {
+        "pair": [
+          "CN_GBA_MO_GUIDE_Art4",
+          "MO_PDPA_Art19_002"
+        ],
+        "family": "跨法域",
+        "queries": 5,
+        "note": "N1"
+      },
+      {
+        "pair": [
+          "CN_GBA_MO_GUIDE_Art2",
+          "MO_PDPA_Art19_001"
+        ],
+        "family": "跨法域",
+        "queries": 23,
+        "note": "N1"
+      },
+      {
+        "pair": [
+          "CN_GBA_MO_GUIDE_Art7",
+          "MO_PDPA_Art19_002"
+        ],
+        "family": "跨法域",
+        "queries": 1,
+        "note": "N1；N6"
+      },
+      {
+        "pair": [
+          "CN_GBA_MO_GUIDE_Art7",
+          "MO_PDPA_Art19_001"
+        ],
+        "family": "跨法域",
+        "queries": 1,
+        "note": "N1"
+      },
+      {
+        "pair": [
+          "MO_PDPA_Art19_001",
+          "MO_PDPA_Art20_001"
+        ],
+        "family": "同法域",
+        "queries": 3,
+        "note": "N4"
+      }
+    ],
+    "missed_conflict_pairs": 5,
+    "missed_detail": [
+      {
+        "pair": [
+          "CN_GBA_HK_GUIDE_Art2",
+          "CN_OUTBOUND_Art8_001"
+        ],
+        "gold": "场景依赖",
+        "resolution": "并存"
+      },
+      {
+        "pair": [
+          "CN_GBA_HK_GUIDE_Art2",
+          "CN_OUTBOUND_Art7_002"
+        ],
+        "gold": "稳定冲突",
+        "resolution": "并存（暂按累积）"
+      },
+      {
+        "pair": [
+          "CN_GBA_HK_GUIDE_Art8",
+          "CN_OUTBOUND_Art7_002"
+        ],
+        "gold": "场景依赖",
+        "resolution": "依事实定"
+      },
+      {
+        "pair": [
+          "CN_GBA_MO_GUIDE_Art7",
+          "CN_OUTBOUND_Art7_002"
+        ],
+        "gold": "场景依赖",
+        "resolution": "右压制左(条件触发)"
+      },
+      {
+        "pair": [
+          "CN_OUTBOUND_Art5_004",
+          "CN_PIPL_Art40_001"
+        ],
+        "gold": "场景依赖",
+        "resolution": "待定"
+      }
+    ]
+  },
+  "component_ablation": {
+    "note": "归一化关闭后的判定由 _flags 记录离线重建（该对在归一化前给出压制结论）。",
+    "normalized_claims": 175,
+    "with_normalization": {
+      "claims": 18,
+      "reviewed": 11,
+      "false_positives": 5,
+      "false_positive_rate": 0.4545
+    },
+    "without_normalization": {
+      "claims": 47,
+      "reviewed": 29,
+      "false_positives": 23,
+      "false_positive_rate": 0.7931
+    }
+  },
+  "candidate_statistics": {
+    "natural_queries": 840,
+    "candidate_size": {
+      "min": 17,
+      "median": 24,
+      "max": 24,
+      "mean": 23.85
+    },
+    "adversarial_coverage": "641/641 (100%)",
+    "adversarial_queries": 240
+  }
+}

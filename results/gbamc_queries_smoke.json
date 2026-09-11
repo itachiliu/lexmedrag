@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T20:31:28",
+    "source": "Synthea CSV exports (synthetic, no credentials)",
+    "seed": 20260909,
+    "status": "draft_requires_review",
+    "note": "属性映射与场景参数为第一稿；正式 GBAMC 需审核定稿后生成。"
+  },
+  "queries": [
+    {
+      "query_id": "GBAMC-DRAFT-0000",
+      "scenario": "hk_to_cn_ai_training",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-1",
+      "X_target": [
+        "内分泌疾病记录",
+        "检验检查数据",
+        "生命体征监测数据",
+        "基因测序数据"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "model_training",
+        "vol": 72149,
+        "t": "2024-03-04T15:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0001",
+      "scenario": "hk_to_cn_ai_training",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-1",
+      "X_target": [
+        "内分泌疾病记录",
+        "检验检查数据",
+        "生命体征监测数据"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "model_training",
+        "vol": 93358,
+        "t": "2024-01-02T07:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0002",
+      "scenario": "mo_to_sz_multicenter",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-3",
+      "X_target": [
+        "精神心理记录",
+        "生命体征监测数据"
+      ],
+      "C_op": {
+        "loc_src": "MO",
+        "loc_dst": "CN",
+        "act": "clinical_trial",
+        "vol": 39159,
+        "t": "2024-08-29T12:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0003",
+      "scenario": "mo_to_sz_multicenter",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-2",
+      "X_target": [
+        "肿瘤诊断记录",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "MO",
+        "loc_dst": "CN",
+        "act": "clinical_trial",
+        "vol": 10905,
+        "t": "2024-05-26T11:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0004",
+      "scenario": "cn_to_hk_pharmacovigilance",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-3",
+      "X_target": [
+        "精神心理记录",
+        "生命体征监测数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 13822,
+        "t": "2024-01-08T15:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0005",
+      "scenario": "cn_to_hk_pharmacovigilance",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-2",
+      "X_target": [
+        "肿瘤诊断记录",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "CN",
+        "loc_dst": "HK",
+        "act": "pharmacovigilance",
+        "vol": 24715,
+        "t": "2024-09-15T07:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0006",
+      "scenario": "gba_telemedicine",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-2",
+      "X_target": [
+        "肿瘤诊断记录",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "MO",
+        "loc_dst": "CN",
+        "act": "telemedicine",
+        "vol": 17695,
+        "t": "2024-09-07T06:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0007",
+      "scenario": "gba_telemedicine",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-3",
+      "X_target": [
+        "精神心理记录",
+        "生命体征监测数据"
+      ],
+      "C_op": {
+        "loc_src": "MO",
+        "loc_dst": "CN",
+        "act": "telemedicine",
+        "vol": 2132,
+        "t": "2024-03-29T01:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0008",
+      "scenario": "gba_storage_backup",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-2",
+      "X_target": [
+        "肿瘤诊断记录",
+        "检验检查数据"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "storage_backup",
+        "vol": 331816,
+        "t": "2024-10-12T15:00:00"
+      }
+    },
+    {
+      "query_id": "GBAMC-DRAFT-0009",
+      "scenario": "gba_storage_backup",
+      "status": "draft_requires_review",
+      "patient_ref": "pat-3",
+      "X_target": [
+        "精神心理记录",
+        "生命体征监测数据",
+        "基因测序数据"
+      ],
+      "C_op": {
+        "loc_src": "HK",
+        "loc_dst": "CN",
+        "act": "storage_backup",
+        "vol": 421846,
+        "t": "2024-12-26T04:00:00"
+      }
+    }
+  ]
+}

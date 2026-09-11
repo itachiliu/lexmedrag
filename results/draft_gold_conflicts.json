@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T20:24:51",
+    "model": "deepseek-chat",
+    "status": "ai_draft_requires_expert_review",
+    "note": "LLM 初判仅用于辅助标注。在专家审核并修改前，不得作为论文的 gold。"
+  },
+  "items": [
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_017",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则分别针对不同信息类型：LEFT针对血型信息，RIGHT针对膳食建议记录，二者在医疗数据场景中并非同一对象，不存在规范冲突，应分别适用。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_008",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则分别针对不同对象：LEFT针对血型信息，RIGHT针对用药记录。血型与用药记录属于不同信息类型，不存在同一场景下的规范重叠，故无冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_014",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同对象：LEFT针对血型信息，RIGHT针对出院小结。血型未关联医疗时非敏感，但出院小结本身即含就诊记录，属敏感信息。二者不构成同一场景下的规范冲突，可并行适用。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_019",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同对象：LEFT规范血型信息本身，RIGHT规范疾病筛查结果。血型未关联疾病时非敏感，关联后则属于医疗健康信息，二者不矛盾，可并存适用。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_024",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同对象：LEFT针对血型信息，RIGHT针对急救记录。急救记录虽属医疗健康信息，但血型未关联疾病或就诊时不属于敏感信息，二者不构成同一场景下的规范冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_027",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同对象：LEFT针对血型信息本身，RIGHT针对远程医疗咨询记录。血型未关联医疗场景时不属敏感，但远程医疗咨询记录已属医疗健康就诊记录，两者不构成同一场景下的规范冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_004",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同信息类型：LEFT针对血型，RIGHT针对过敏史。血型与过敏史属不同医疗数据，各自独立判断，不存在同一场景下的规范冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_006",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同对象：LEFT针对血型信息，RIGHT针对康复治疗记录。血型未关联医疗场景时非敏感，而康复记录本身即医疗健康信息，二者不构成同一场景下的规范冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_010",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同信息类型：LEFT涉及血型信息，RIGHT涉及营养评估报告，二者并非同一客体，不存在规范冲突。且LEFT为指南，效力低于法律，但因其适用范围不同，无需适用效力层级规则。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_011",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则分别针对不同信息类型：LEFT涉及血型信息，RIGHT涉及心理健康评估记录，二者在医疗数据场景中并非同一对象，不存在规范冲突。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_012",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同信息类型：LEFT针对血型信息，RIGHT针对康复训练计划。血型与康复记录属不同数据，不构成同一场景下的规范冲突，应分别适用各自规则。"
+    },
+    {
+      "left_rule_id": "CN_CSSPG_001",
+      "right_rule_id": "CN_PIPL_Art28_015",
+      "status": "ai_draft",
+      "conflict": false,
+      "conflict_type": "无冲突",
+      "verdict": "not_conflict",
+      "basis": "none",
+      "reason": "两条规则针对不同信息类型：LEFT涉及血型，RIGHT涉及睡眠监测报告，二者在医疗数据场景中并非同一客体，不存在规范冲突。血型未关联医疗时非敏感，睡眠报告属健康状况敏感信息，各自独立适用。"
+    }
+  ]
+}
