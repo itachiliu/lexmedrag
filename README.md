@@ -80,6 +80,7 @@ guide. Regenerate with `python gold/make_expert_package.py`.
 | Retrieval evaluation (Table 7) | `python scripts/retrieval_comparison.py` |
 | Figure 6 | `python scripts/make_figures.py` |
 | Expert annotation sheets | `python gold/make_expert_package.py` |
+| Manuscript number check | `python tools/number_regression.py <path-to-manuscript.tex>` |
 
 Every script writes into `results/` and prints the table it produces, so each reported number can
 be traced back to the file it came from. Every metric in the paper is reproducible from the

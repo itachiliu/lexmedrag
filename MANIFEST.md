@@ -1,6 +1,6 @@
 # Release manifest
 
-Files: 117  |  total size: 26.9 MB
+Files: 118  |  total size: 26.9 MB
 
 | File | Size (KB) |
 |---|---|
@@ -121,3 +121,4 @@ Files: 117  |  total size: 26.9 MB
 | `src/lexmedrag/metrics.py` | 2 |
 | `src/lexmedrag/retrieval.py` | 2 |
 | `src/lexmedrag/text_utils.py` | 2 |
+| `tools/number_regression.py` | 13 |
