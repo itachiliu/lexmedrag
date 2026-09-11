@@ -1,0 +1,16 @@
+{
+ "outbound_rules": [
+  "CN_OUTBOUND_Art5_004",
+  "CN_OUTBOUND_Art5_1_001",
+  "CN_OUTBOUND_Art5_5_001",
+  "CN_OUTBOUND_Art7_002",
+  "CN_OUTBOUND_Art8_001",
+  "CN_PIPL_Art38_001",
+  "CN_PIPL_Art39_001",
+  "CN_PIPL_Art40_001"
+ ],
+ "inbound_queries": 480,
+ "total_queries": 840,
+ "worst_case_direction_errors": 3840,
+ "observed_direction_errors": 0
+}

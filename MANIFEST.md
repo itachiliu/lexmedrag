@@ -1,6 +1,6 @@
 # Release manifest
 
-Files: 115  |  total size: 26.9 MB
+Files: 117  |  total size: 26.9 MB
 
 | File | Size (KB) |
 |---|---|
@@ -84,6 +84,7 @@ Files: 115  |  total size: 26.9 MB
 | `results/conflict_metrics_v3.json` | 2 |
 | `results/dataset_card.json` | 6 |
 | `results/dataset_card_v2.json` | 7 |
+| `results/direction_constraint_check.json` | 0 |
 | `results/draft_conflict_gold_query_all_v5.json` | 2450 |
 | `results/draft_gold_conflicts.json` | 6 |
 | `results/draft_gold_queries.json` | 6 |
@@ -105,6 +106,7 @@ Files: 115  |  total size: 26.9 MB
 | `scripts/compare_methods_natural.py` | 3 |
 | `scripts/conflict_metrics_layered.py` | 5 |
 | `scripts/dedup_qa_rules.py` | 2 |
+| `scripts/direction_constraint_check.py` | 2 |
 | `scripts/expand_adversarial.py` | 8 |
 | `scripts/experiment_analysis.py` | 9 |
 | `scripts/extract_rules_from_qa.py` | 3 |
