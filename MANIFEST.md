@@ -1,6 +1,6 @@
 # Release manifest
 
-Files: 118  |  total size: 26.9 MB
+Files: 119  |  total size: 26.9 MB
 
 | File | Size (KB) |
 |---|---|
@@ -22,6 +22,7 @@ Files: 118  |  total size: 26.9 MB
 | `docs/ADVERSARIAL_CONFLICT_SET_v1.md` | 7 |
 | `docs/GBAMC_CONSTRUCTION_PLAN.md` | 6 |
 | `docs/KBS_STYLE_REPORT.md` | 4 |
+| `docs/LEGAL_VERIFICATION_LOG.md` | 5 |
 | `docs/STANCE_GBA_QUANTITATIVE_EXEMPTION_v1.md` | 6 |
 | `figures/fig_conflict_eval.alignment.json` | 4 |
 | `figures/fig_conflict_eval.alignment.svg` | 1 |

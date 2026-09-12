@@ -189,17 +189,17 @@
   {
     "rule_id": "HK_PDPO_CONSENT_DEF_001",
     "region": "HK",
-    "rule_text": "“订明的同意”(prescribed consent) 指资料当事人明确表示同意，且未有撤回该同意；同意须为自愿给予，并须以书面或其他足以证明该项同意确实作出的方式表示（条例第2条及相关保障资料原则的适用解释）。",
+  "rule_text": "保障资料第3原则所指的同意，为资料当事人自愿给予的明示同意；资料当事人有权以书面通知，撤回先前曾给予的同意。",
     "rule_category": "数据保护",
     "jurisdiction_scope": ["HK"],
     "sensitivity_score": 0.65,
     "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）第2条及保障资料原则关于“订明的同意”的规定；条文为整理稿，待专家复核",
+    "source": "《个人资料（私隐）条例》（香港法例第486章）保障资料第3原则；条文已按香港个人资料私隐专员公署公布的中文说明核对",
       "issue_date": "1996-12-20",
       "revision_history": [],
       "status": "draft_for_review",
-      "verification_required": true,
-      "note": "同意构成要件（香港口径），与内地单独同意要求存在定义性差异。",
+    "verification_required": false,
+    "note": "同意构成要件（香港口径）：须为自愿给予的明示同意，撤回须以书面通知；条例并未要求同意本身以书面作出。与内地单独同意要求存在定义性差异。",
       "url": "https://www.elegislation.gov.hk/hk/cap486"
     }
   },
