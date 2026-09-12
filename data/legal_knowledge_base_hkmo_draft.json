@@ -1,132 +1,151 @@
 [
-  {
-    "rule_id": "HK_PDPO_DPP1_002",
-    "region": "HK",
-    "rule_text": "保障资料第1原则（收集目的及方式）：个人资料不得为以下目的收集——(a)并非直接与将会使用该资料的资料使用者所执行的职能或活动有关的合法目的；或(b)就有关目的而言属超乎适度。收集该资料的方式须合法及公平。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第1(2)原则；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_DPP1_003",
-    "region": "HK",
-    "rule_text": "保障资料第1原则（告知）：资料使用者收集个人资料时，须采取一切切实可行的步骤，告知资料当事人其资料是否会被用作直接促销（如适用）、该资料将会用于何种目的、资料可能移转予哪类人士等事项。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第1(3)原则；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_DPP3_001",
-    "region": "HK",
-    "rule_text": "保障资料第3原则（使用限制）：除非获得资料当事人订明的同意，否则个人资料不得用于下列用途以外的任何用途——(a)在收集该资料时拟使用的目的；或(b)与上述目的直接有关的用途。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.75,
-    "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第3原则；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_DPP4_001",
-    "region": "HK",
-    "rule_text": "保障资料第4原则（保安措施）：须采取所有切实可行的步骤，确保由资料使用者持有的个人资料受到保障，免受未获准许的或意外的查阅、处理、删除、丧失或使用，并顾及资料的性质、储存位置、所采用的保安措施，以及为确保能查阅资料者的良好操守、审慎程度及处事能力而采取的措施。如聘用他人代其处理个人资料，须采取所有切实可行的步骤，确保该人遵守上述保障要求。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.75,
-    "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第4原则；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_S33_NOTE",
-    "region": "HK",
-    "rule_text": "背景规则（供冲突分析使用）：《个人资料（私隐）条例》第33条就“禁止在指明情况以外将个人资料移转至香港以外地方”作出规定，但该条至今尚未生效（政府公报多次确认）；跨境移转仍受条例其他条文（如保障资料原则）规管，公署亦以指引建议资料使用者采取合约保障等措施。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "香港法例第486章第33条（尚未实施）及政制及内地事务局公报说明；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [
-        "第33条自条例颁布至今未获实施（政府公报多次确认）；本条以条例主体生效日作为 issue_date，避免被日期规则误判为后法"
-      ],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://www.cmab.gov.hk/sc/press/press_3611.htm"
-    }
-  },
-  {
-    "rule_id": "MO_PDPA_Art19_001",
-    "region": "MO",
-    "rule_text": "个人资料转移至澳门特区以外（原则）：仅在遵守本法律规定，且接收转移资料当地的法律体系能确保适当保护程度的情况下，方可进行转移。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["MO"],
-    "sensitivity_score": 0.8,
-    "metadata": {
-      "source": "澳门《个人资料保护法》（第8/2005号法律）第十九条第一款；条文为简体整理，待专家复核",
-      "issue_date": "2006-02-13",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp"
-    }
-  },
-  {
-    "rule_id": "MO_PDPA_Art19_002",
-    "region": "MO",
-    "rule_text": "如接收转移资料当地的法律体系未能确保适当保护程度，则是否允许转移由澳门个人资料保护当局依个案决定（第十九条第二款），并须符合本法律规定的条件。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["MO"],
-    "sensitivity_score": 0.8,
-    "metadata": {
-      "source": "澳门《个人资料保护法》（第8/2005号法律）第十九条第二款；条文为简体整理，待专家复核",
-      "issue_date": "2006-02-13",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp"
-    }
-  },
-  {
-    "rule_id": "MO_PDPA_Art20_001",
-    "region": "MO",
-    "rule_text": "转移的排除适用（例外）：当资料当事人明确同意转移，或转移符合法定情形（如为履行合同、保障资料当事人重大利益、司法程序等）时，经对公共当局作出通知后，可向未能确保适当保护程度的地方转移。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["MO"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "澳门《个人资料保护法》（第8/2005号法律）第二十条；条文为简体整理，待专家复核",
-      "issue_date": "2006-02-13",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp"
-    }
+ {
+  "rule_id": "HK_PDPO_DPP1_002",
+  "region": "HK",
+  "rule_text": "保障资料第1原则（收集目的及方式）：个人资料不得为以下目的收集——(a)并非直接与将会使用该资料的资料使用者所执行的职能或活动有关的合法目的；或(b)就有关目的而言属超乎适度。收集该资料的方式须合法及公平。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第1(2)原则；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
   }
+ },
+ {
+  "rule_id": "HK_PDPO_DPP1_003",
+  "region": "HK",
+  "rule_text": "保障资料第1原则（告知）：资料使用者收集个人资料时，须采取一切切实可行的步骤，告知资料当事人其资料是否会被用作直接促销（如适用）、该资料将会用于何种目的、资料可能移转予哪类人士等事项。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第1(3)原则；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
+  }
+ },
+ {
+  "rule_id": "HK_PDPO_DPP3_001",
+  "region": "HK",
+  "rule_text": "保障资料第3原则（使用限制）：除非获得资料当事人订明的同意，否则个人资料不得用于下列用途以外的任何用途——(a)在收集该资料时拟使用的目的；或(b)与上述目的直接有关的用途。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.75,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第3原则；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
+  }
+ },
+ {
+  "rule_id": "HK_PDPO_DPP4_001",
+  "region": "HK",
+  "rule_text": "保障资料第4原则（保安措施）：须采取所有切实可行的步骤，确保由资料使用者持有的个人资料受到保障，免受未获准许的或意外的查阅、处理、删除、丧失或使用，并顾及资料的性质、储存位置、所采用的保安措施，以及为确保能查阅资料者的良好操守、审慎程度及处事能力而采取的措施。如聘用他人代其处理个人资料，须采取所有切实可行的步骤，确保该人遵守上述保障要求。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.75,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第4原则；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
+  }
+ },
+ {
+  "rule_id": "HK_PDPO_S33_NOTE",
+  "region": "HK",
+  "rule_text": "背景规则（供冲突分析使用）：《个人资料（私隐）条例》第33条就“禁止在指明情况以外将个人资料移转至香港以外地方”作出规定，但该条至今尚未生效（政府公报多次确认）；跨境移转仍受条例其他条文（如保障资料原则）规管，公署亦以指引建议资料使用者采取合约保障等措施。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "香港法例第486章第33条（尚未实施）及政制及内地事务局公报说明；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [
+    "第33条自条例颁布至今未获实施（政府公报多次确认）；本条以条例主体生效日作为 issue_date，避免被日期规则误判为后法"
+   ],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "url": "https://www.cmab.gov.hk/sc/press/press_3611.htm"
+  }
+ },
+ {
+  "rule_id": "MO_PDPA_Art19_001",
+  "region": "MO",
+  "rule_text": "个人资料转移至澳门特区以外（原则）：仅在遵守本法律规定，且接收转移资料当地的法律体系能确保适当保护程度的情况下，方可进行转移。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "MO"
+  ],
+  "sensitivity_score": 0.8,
+  "metadata": {
+   "source": "澳门《个人资料保护法》（第8/2005号法律）第十九条第一款；条文为简体整理，待专家复核",
+   "issue_date": "2006-02-13",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp",
+   "note": "第 19 条为个人资料转移至澳门特区以外的一般原则，要求目的地具备适当保护程度。"
+  }
+ },
+ {
+  "rule_id": "MO_PDPA_Art19_002",
+  "region": "MO",
+  "rule_text": "如接收转移资料当地的法律体系未能确保适当保护程度，则是否允许转移由澳门个人资料保护当局依个案决定（第十九条第二款），并须符合本法律规定的条件。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "MO"
+  ],
+  "sensitivity_score": 0.8,
+  "metadata": {
+   "source": "澳门《个人资料保护法》（第8/2005号法律）第十九条第二款；条文为简体整理，待专家复核",
+   "issue_date": "2006-02-13",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp",
+   "note": "目的地不具备适当保护程度时，由澳门个人资料保护当局依个案许可。"
+  }
+ },
+ {
+  "rule_id": "MO_PDPA_Art20_001",
+  "region": "MO",
+  "rule_text": "转移的排除适用（例外）：当资料当事人明确同意转移，或转移符合法定情形（如为履行合同、保障资料当事人重大利益、司法程序等）时，经对公共当局作出通知后，可向未能确保适当保护程度的地方转移。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "MO"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "澳门《个人资料保护法》（第8/2005号法律）第二十条；条文为简体整理，待专家复核",
+   "issue_date": "2006-02-13",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "url": "https://bo.dsaj.gov.mo/bo/I/2005/34/lei08_cn.asp",
+   "note": "第 20 条为第 19 条的排除适用情形，属例外条款。"
+  }
+ }
 ]

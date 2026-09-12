@@ -1,184 +1,221 @@
 [
-  {
-    "rule_id": "CN_PIPL_Art38_001",
-    "region": "CN",
-    "rule_text": "个人信息处理者因业务等需要，确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一：（一）依照本法第四十条的规定通过国家网信部门组织的安全评估；（二）按照国家网信部门的规定经专业机构进行个人信息保护认证；（三）按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务；（四）法律、行政法规或者国家网信部门规定的其他条件。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.8,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第三十八条（2021）",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art39_001",
-    "region": "CN",
-    "rule_text": "个人信息处理者向境外提供个人信息的，应当向个人告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及个人向境外接收方行使本法规定权利的方式和程序等事项，并取得个人的单独同意。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.8,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第三十九条（2021）",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art40_001",
-    "region": "CN",
-    "rule_text": "关键信息基础设施运营者和处理个人信息达到国家网信部门规定数量的个人信息处理者，应当将在中华人民共和国境内收集和产生的个人信息存储在境内。确需向境外提供的，应当通过国家网信部门组织的安全评估；法律、行政法规和国家网信部门规定禁止提供个人信息的，不得提供。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.9,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第四十条（2021）",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_OUTBOUND_Art5_004",
-    "region": "CN",
-    "rule_text": "数据处理者向境外提供个人信息，属于关键信息基础设施运营者以外的数据处理者自当年1月1日起累计向境外提供不满10万人个人信息（不含敏感个人信息）的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证；向境外提供的个人信息不包括重要数据。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《促进和规范数据跨境流动规定》第五条（四）（国家互联网信息办公室令第16号，2024-03-22）",
-      "issue_date": "2024-03-22",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_OUTBOUND_Art7_002",
-    "region": "CN",
-    "rule_text": "关键信息基础设施运营者以外的数据处理者向境外提供重要数据，或者自当年1月1日起累计向境外提供100万人以上个人信息（不含敏感个人信息）或者1万人以上敏感个人信息的，应当通过所在地省级网信部门向国家网信部门申报数据出境安全评估。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.9,
-    "metadata": {
-      "source": "《促进和规范数据跨境流动规定》第七条（二）（国家互联网信息办公室令第16号，2024-03-22）",
-      "issue_date": "2024-03-22",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_OUTBOUND_Art8_001",
-    "region": "CN",
-    "rule_text": "关键信息基础设施运营者以外的数据处理者自当年1月1日起累计向境外提供10万人以上、不满100万人个人信息（不含敏感个人信息）或者不满1万人敏感个人信息的，应当依法与境外接收方订立个人信息出境标准合同或者通过个人信息保护认证。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.75,
-    "metadata": {
-      "source": "《促进和规范数据跨境流动规定》第八条（国家互联网信息办公室令第16号，2024-03-22）",
-      "issue_date": "2024-03-22",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_HK_GUIDE_Art2",
-    "region": "CN",
-    "rule_text": "粤港澳大湾区（内地、香港）个人信息处理者及接收方可以按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》要求，通过订立标准合同的方式进行粤港澳大湾区内内地和香港之间的个人信息跨境流动；被相关部门、地区告知或者公开发布为重要数据的个人信息除外。处理者及接收方应注册于（适用于组织）或位于（适用于个人）大湾区内地九市（广州、深圳、珠海、佛山、惠州、东莞、中山、江门、肇庆）或香港特别行政区。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "HK"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第二条（国家网信办/香港创新科技及工业局公告2023年第3号，2023-12-10）",
-      "issue_date": "2023-12-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_HK_GUIDE_Art4",
-    "region": "CN",
-    "rule_text": "按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息的，个人信息处理者跨境提供前应当按属地法律要求告知个人信息主体或者取得同意，且不得向粤港澳大湾区以外的组织、个人提供。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "HK"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第四条（2023-12-10）",
-      "issue_date": "2023-12-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_HK_GUIDE_Art5",
-    "region": "CN",
-    "rule_text": "个人信息处理者按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息前，应当开展个人信息保护影响评估，评估处理目的与方式的合法性正当性必要性、对个人信息主体权益的影响及安全风险、接收方履行义务的管理和技术措施能力等。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "HK"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第五条（2023-12-10）",
-      "issue_date": "2023-12-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_HK_GUIDE_Art8",
-    "region": "CN",
-    "rule_text": "个人信息处理者及接收方应在《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同》生效之日起10个工作日内，按照属地向广东省互联网信息办公室或者香港特别行政区政府资讯科技总监办公室进行标准合同备案，提交法定代表人身份证件影印件、承诺书与标准合同。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "HK"],
-    "sensitivity_score": 0.55,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第八条（2023-12-10）",
-      "issue_date": "2023-12-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_MO_GUIDE_Art2",
-    "region": "CN",
-    "rule_text": "粤港澳大湾区（内地、澳门）个人信息处理者及接收方可以按照《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》要求，通过订立标准合同的方式进行粤港澳大湾区内内地和澳门之间的个人信息跨境流动；被相关部门、地区告知或者公开发布为重要数据的个人信息除外。处理者及接收方应注册于或位于大湾区内地九市或澳门特别行政区。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "MO"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第二条（国家网信办/澳门经济及科技发展局/澳门个人资料保护局公告2024年第1号，2024-09-10）",
-      "issue_date": "2024-09-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_MO_GUIDE_Art4",
-    "region": "CN",
-    "rule_text": "按照《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息的，个人信息处理者跨境提供前应当按属地法律要求告知个人信息主体或者取得同意，且不得向粤港澳大湾区以外的组织、个人提供。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "MO"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第四条（2024-09-10）",
-      "issue_date": "2024-09-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
-  },
-  {
-    "rule_id": "CN_GBA_MO_GUIDE_Art7",
-    "region": "CN",
-    "rule_text": "个人信息处理者及接收方应在《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同》生效之日起10个工作日内，按照属地向广东省互联网信息办公室或者澳门特别行政区政府个人资料保护局进行标准合同备案，提交承诺书、标准合同及属地监管机构要求的其他材料。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN", "MO"],
-    "sensitivity_score": 0.55,
-    "metadata": {
-      "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第七条（2024-09-10）",
-      "issue_date": "2024-09-10",
-      "revision_history": [],
-      "status": "draft_for_review"
-    }
+ {
+  "rule_id": "CN_PIPL_Art38_001",
+  "region": "CN",
+  "rule_text": "个人信息处理者因业务等需要，确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一：（一）依照本法第四十条的规定通过国家网信部门组织的安全评估；（二）按照国家网信部门的规定经专业机构进行个人信息保护认证；（三）按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务；（四）法律、行政法规或者国家网信部门规定的其他条件。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.8,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第三十八条（2021）",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review"
   }
+ },
+ {
+  "rule_id": "CN_PIPL_Art39_001",
+  "region": "CN",
+  "rule_text": "个人信息处理者向境外提供个人信息的，应当向个人告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及个人向境外接收方行使本法规定权利的方式和程序等事项，并取得个人的单独同意。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.8,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第三十九条（2021）",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_PIPL_Art40_001",
+  "region": "CN",
+  "rule_text": "关键信息基础设施运营者和处理个人信息达到国家网信部门规定数量的个人信息处理者，应当将在中华人民共和国境内收集和产生的个人信息存储在境内。确需向境外提供的，应当通过国家网信部门组织的安全评估；法律、行政法规和国家网信部门规定禁止提供个人信息的，不得提供。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.9,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第四十条（2021）",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_OUTBOUND_Art5_004",
+  "region": "CN",
+  "rule_text": "数据处理者向境外提供个人信息，属于关键信息基础设施运营者以外的数据处理者自当年1月1日起累计向境外提供不满10万人个人信息（不含敏感个人信息）的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证；向境外提供的个人信息不包括重要数据。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《促进和规范数据跨境流动规定》第五条（四）（国家互联网信息办公室令第16号，2024-03-22）",
+   "issue_date": "2024-03-22",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_OUTBOUND_Art7_002",
+  "region": "CN",
+  "rule_text": "关键信息基础设施运营者以外的数据处理者向境外提供重要数据，或者自当年1月1日起累计向境外提供100万人以上个人信息（不含敏感个人信息）或者1万人以上敏感个人信息的，应当通过所在地省级网信部门向国家网信部门申报数据出境安全评估。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.9,
+  "metadata": {
+   "source": "《促进和规范数据跨境流动规定》第七条（二）（国家互联网信息办公室令第16号，2024-03-22）",
+   "issue_date": "2024-03-22",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_OUTBOUND_Art8_001",
+  "region": "CN",
+  "rule_text": "关键信息基础设施运营者以外的数据处理者自当年1月1日起累计向境外提供10万人以上、不满100万人个人信息（不含敏感个人信息）或者不满1万人敏感个人信息的，应当依法与境外接收方订立个人信息出境标准合同或者通过个人信息保护认证。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.75,
+  "metadata": {
+   "source": "《促进和规范数据跨境流动规定》第八条（国家互联网信息办公室令第16号，2024-03-22）",
+   "issue_date": "2024-03-22",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_HK_GUIDE_Art2",
+  "region": "CN",
+  "rule_text": "粤港澳大湾区（内地、香港）个人信息处理者及接收方可以按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》要求，通过订立标准合同的方式进行粤港澳大湾区内内地和香港之间的个人信息跨境流动；被相关部门、地区告知或者公开发布为重要数据的个人信息除外。处理者及接收方应注册于（适用于组织）或位于（适用于个人）大湾区内地九市（广州、深圳、珠海、佛山、惠州、东莞、中山、江门、肇庆）或香港特别行政区。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "HK"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第二条（国家网信办/香港创新科技及工业局公告2023年第3号，2023-12-10）",
+   "issue_date": "2023-12-10",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_HK_GUIDE_Art4",
+  "region": "CN",
+  "rule_text": "按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息的，个人信息处理者跨境提供前应当按属地法律要求告知个人信息主体或者取得同意，且不得向粤港澳大湾区以外的组织、个人提供。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "HK"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第四条第（二）项（2023-12-10）；条号与内容已核对",
+   "issue_date": "2023-12-10",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "note": "禁止再转移：订约方不得向粤港澳大湾区以外的组织、个人提供所接收的个人信息。"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_HK_GUIDE_Art5",
+  "region": "CN",
+  "rule_text": "个人信息处理者按照《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息前，应当开展个人信息保护影响评估，评估处理目的与方式的合法性正当性必要性、对个人信息主体权益的影响及安全风险、接收方履行义务的管理和技术措施能力等。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "HK"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第五条（2023-12-10）",
+   "issue_date": "2023-12-10",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_HK_GUIDE_Art8",
+  "region": "CN",
+  "rule_text": "个人信息处理者及接收方应在《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同》生效之日起10个工作日内，按照属地向广东省互联网信息办公室或者香港特别行政区政府资讯科技总监办公室进行标准合同备案，提交法定代表人身份证件影印件、承诺书与标准合同。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "HK"
+  ],
+  "sensitivity_score": 0.55,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、香港）个人信息跨境流动标准合同实施指引》第八条（2023-12-10）",
+   "issue_date": "2023-12-10",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_MO_GUIDE_Art2",
+  "region": "CN",
+  "rule_text": "粤港澳大湾区（内地、澳门）个人信息处理者及接收方可以按照《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》要求，通过订立标准合同的方式进行粤港澳大湾区内内地和澳门之间的个人信息跨境流动；被相关部门、地区告知或者公开发布为重要数据的个人信息除外。处理者及接收方应注册于或位于大湾区内地九市或澳门特别行政区。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "MO"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第二条（国家网信办/澳门经济及科技发展局/澳门个人资料保护局公告2024年第1号，2024-09-10）",
+   "issue_date": "2024-09-10",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_MO_GUIDE_Art4",
+  "region": "CN",
+  "rule_text": "按照《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》订立标准合同跨境提供个人信息的，个人信息处理者跨境提供前应当按属地法律要求告知个人信息主体或者取得同意，且不得向粤港澳大湾区以外的组织、个人提供。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "MO"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第四条第（二）项（2024-09-10）；条号与内容已核对",
+   "issue_date": "2024-09-10",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "note": "禁止再转移：订约方不得向粤港澳大湾区以外的组织、个人提供所接收的个人信息。"
+  }
+ },
+ {
+  "rule_id": "CN_GBA_MO_GUIDE_Art7",
+  "region": "CN",
+  "rule_text": "个人信息处理者及接收方应在《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同》生效之日起10个工作日内，按照属地向广东省互联网信息办公室或者澳门特别行政区政府个人资料保护局进行标准合同备案，提交承诺书、标准合同及属地监管机构要求的其他材料。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN",
+   "MO"
+  ],
+  "sensitivity_score": 0.55,
+  "metadata": {
+   "source": "《粤港澳大湾区（内地、澳门）个人信息跨境流动标准合同实施指引》第七条（2024-09-10）",
+   "issue_date": "2024-09-10",
+   "revision_history": [],
+   "status": "draft_for_review"
+  }
+ }
 ]

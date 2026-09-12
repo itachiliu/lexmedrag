@@ -1,257 +1,289 @@
 [
-  {
-    "rule_id": "CN_DSL_Art36_001",
-    "region": "CN",
-    "rule_text": "非经中华人民共和国主管机关批准，境内的组织、个人不得向外国司法或者执法机构提供存储于中华人民共和国境内的数据。",
-    "rule_category": "数据安全",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.95,
-    "metadata": {
-      "source": "《中华人民共和国数据安全法》第三十六条（2021-06-10 通过，2021-09-01 施行）；条文为整理稿，待专家复核",
-      "issue_date": "2021-09-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "阻断条款：与境外监管机构的调阅/检查要求构成义务—禁止型冲突。",
-      "url": "https://www.gov.cn/xinwen/2021-06/11/content_5616919.htm"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art41_001",
-    "region": "CN",
-    "rule_text": "中华人民共和国主管机关根据有关法律和中华人民共和国缔结或者参加的国际条约、协定，或者按照平等互惠原则，处理外国司法或者执法机构关于提供个人信息的请求。非经中华人民共和国主管机关批准，个人信息处理者不得向外国司法或者执法机构提供存储于中华人民共和国境内的个人信息。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.95,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第四十一条（2021-11-01 施行）；条文为整理稿，待专家复核",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "阻断条款的个人信息版本，与《数据安全法》第36条并行适用。",
-      "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art47_001",
-    "region": "CN",
-    "rule_text": "有下列情形之一的，个人信息处理者应当主动删除个人信息；未删除的，个人有权请求删除：（一）处理目的已实现、无法实现或者为实现处理目的不再必要；（二）个人信息处理者停止提供产品或者服务，或者保存期限已届满；（三）个人撤回同意；（四）个人信息处理者违反法律、行政法规或者违反约定处理个人信息；（五）法律、行政法规规定的其他情形。法律、行政法规规定的保存期限未届满，或者删除个人信息从技术上难以实现的，个人信息处理者应当停止除存储和采取必要的安全保护措施之外的处理。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第四十七条；条文为整理稿，待专家复核",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "与法定留存义务（药物警戒记录保存）构成义务—义务型张力。",
-      "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art13_3_001",
-    "region": "CN",
-    "rule_text": "符合下列情形之一的，个人信息处理者方可处理个人信息：……（三）为履行法定职责或者法定义务所必需；……依照本法其他有关规定，处理个人信息应当取得个人同意，但是有前款第二项至第七项规定情形的，不需取得个人同意。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.65,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第十三条第一款第（三）项及第二款；条文为整理稿，待专家复核",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "法定留存/报告义务可构成处理的合法性基础，用于化解内地侧的删除权冲突。",
-      "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
-    }
-  },
-  {
-    "rule_id": "CN_PIPL_Art14_001",
-    "region": "CN",
-    "rule_text": "基于个人同意处理个人信息的，该同意应当由个人在充分知情的前提下自愿、明确作出。法律、行政法规规定处理个人信息应当取得个人单独同意或者书面同意的，从其规定。个人信息的处理目的、处理方式和处理的个人信息种类发生变更的，应当重新取得个人同意。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《中华人民共和国个人信息保护法》第十四条；条文为整理稿，待专家复核",
-      "issue_date": "2021-11-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "同意构成要件（内地口径），与香港订明同意要件存在差异。",
-      "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
-    }
-  },
-  {
-    "rule_id": "CN_OUTBOUND_Art5_1_001",
-    "region": "CN",
-    "rule_text": "数据出境符合下列条件之一的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证：……（一）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施跨境人力资源管理所必需，确需向境外提供个人信息的；……",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《促进和规范数据跨境流动规定》第五条第（一）项（国家互联网信息办公室令第16号，2024-03-22）；条文为整理稿，待专家复核",
-      "issue_date": "2024-03-22",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "免除的是出境路径义务三项，不免除告知与单独同意义务。",
-      "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
-    }
-  },
-  {
-    "rule_id": "CN_OUTBOUND_Art5_5_001",
-    "region": "CN",
-  "rule_text": "数据处理者向境外提供个人信息，符合下列条件之一的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证：……（三）紧急情况下为保护自然人的生命健康和财产安全，确需向境外提供个人信息的；……",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.75,
-    "metadata": {
-    "source": "《促进和规范数据跨境流动规定》第五条第（三）项（国家互联网信息办公室令第16号，2024-03-22）；条文已按官方公布文本核对",
-      "issue_date": "2024-03-22",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-    "note": "紧急豁免：仅豁免出境路径义务，是否及于人遗信息对外提供的备案/备份/审查另有要求。规则标识中的 Art5_5 为历史编号，条文对应官方文本第五条第（三）项。",
-      "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
-    }
-  },
-  {
-    "rule_id": "CN_HGR_Art7_001",
-    "region": "CN",
-    "rule_text": "外国组织、个人及其设立或者实际控制的机构不得在我国境内采集、保藏我国人类遗传资源，不得向境外提供我国人类遗传资源。",
-    "rule_category": "人类遗传资源",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.95,
-    "metadata": {
-      "source": "《中华人民共和国人类遗传资源管理条例》第七条；条文为整理稿，待专家复核",
-      "issue_date": "2019-07-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "禁止性规定，无紧急例外，与紧急豁免条款可能直接对立。",
-      "url": "https://www.gov.cn/zhengce/content/2019-06/10/content_5398821.htm"
-    }
-  },
-  {
-    "rule_id": "CN_PV_RETENTION_001",
-    "region": "CN",
-    "rule_text": "药品上市许可持有人应当建立药物警戒记录与数据的管理制度，妥善保存药物警戒活动形成的记录与数据，保存期限应当满足法定要求（通常要求保存至药品注册证书注销后不少于五年）。",
-    "rule_category": "药物警戒",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《药物警戒质量管理规范》（国家药品监督管理局 2021 年第 65 号公告）关于记录与数据保存的要求；条文为概括整理，具体条号与年限表述待专家核对原文",
-      "issue_date": "2021-12-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "本条为概括表述，尚未逐字核对规范原文，定稿前必须补正条号与原文表述。",
-      "url": "https://www.nmpa.gov.cn/"
-    }
-  },
-  {
-    "rule_id": "CN_ADR_MEASURES_RETENTION_001",
-    "region": "CN",
-    "rule_text": "药品生产、经营企业和医疗机构应当建立并保存药品不良反应监测档案与报告记录，保存期限符合国家有关规定，以备监管核查。",
-    "rule_category": "药物警戒",
-    "jurisdiction_scope": ["CN"],
-    "sensitivity_score": 0.6,
-    "metadata": {
-      "source": "《药品不良反应报告和监测管理办法》（卫生部令第81号）关于报告与档案管理的要求；条文为概括整理，具体条号待专家核对原文",
-      "issue_date": "2011-07-01",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "本条为概括表述，尚未逐字核对原文，定稿前必须补正。",
-      "url": "https://www.nmpa.gov.cn/"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_DPP2_001",
-    "region": "HK",
-    "rule_text": "保障资料第2原则（准确性及保留期限）：（1）资料使用者须确保个人资料准确；（2）如资料使用者聘用他人代其处理个人资料，须采取所有切实可行的步骤确保该人不作违反该原则的作为；（3）个人资料的保留时间不得超过达致原来目的（包括任何直接有关的目的）所需的时间，除非法律禁止删除该资料或该删除违反公众利益（包括历史方面的利益）。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.7,
-    "metadata": {
-      "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第2原则；条文为简体整理，待专家复核",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "删除/保留要求的例外指向“法律禁止删除”，是否涵盖内地法规存有争议。",
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "HK_PDPO_CONSENT_DEF_001",
-    "region": "HK",
-  "rule_text": "保障资料第3原则所指的同意，为资料当事人自愿给予的明示同意；资料当事人有权以书面通知，撤回先前曾给予的同意。",
-    "rule_category": "数据保护",
-    "jurisdiction_scope": ["HK"],
-    "sensitivity_score": 0.65,
-    "metadata": {
-    "source": "《个人资料（私隐）条例》（香港法例第486章）保障资料第3原则；条文已按香港个人资料私隐专员公署公布的中文说明核对",
-      "issue_date": "1996-12-20",
-      "revision_history": [],
-      "status": "draft_for_review",
-    "verification_required": false,
-    "note": "同意构成要件（香港口径）：须为自愿给予的明示同意，撤回须以书面通知；条例并未要求同意本身以书面作出。与内地单独同意要求存在定义性差异。",
-      "url": "https://www.elegislation.gov.hk/hk/cap486"
-    }
-  },
-  {
-    "rule_id": "EU_GVP_MODULE_VI_001",
-    "region": "EU",
-    "rule_text": "Marketing authorisation holders shall submit information on all serious adverse reactions occurring within the Union or in third countries to EudraVigilance: within 15 days of the holder becoming aware of the case for serious cases, and within 90 days for non-serious cases. Case information shall be submitted electronically in accordance with the ICH E2B format.",
-    "rule_category": "药物警戒",
-    "jurisdiction_scope": ["EU"],
-    "sensitivity_score": 0.85,
-    "metadata": {
-      "source": "EU Good Pharmacovigilance Practices Module VI (Management and reporting of adverse reactions to medicinal products), Commission Implementing Regulation (EU) No 520/2012; 条文为英文整理稿，待专家复核",
-      "issue_date": "2012-06-19",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "要求向欧盟全球安全数据库（EudraVigilance）提交个例安全性报告，构成对 GBA 禁转条款的全球报告义务。",
-      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/pharmacovigilance"
-    }
-  },
-  {
-    "rule_id": "ICH_E2B_R3_001",
-    "region": "INTL",
-    "rule_text": "Individual Case Safety Reports (ICSRs) shall be transmitted electronically between reporting parties and regulatory authorities using the ICH E2B(R3) message specification, which includes patient identifiable and clinical information needed for case assessment.",
-    "rule_category": "药物警戒",
-    "jurisdiction_scope": ["EU", "US", "ICH"],
-    "sensitivity_score": 0.85,
-    "metadata": {
-      "source": "ICH E2B(R3) Electronic Transmission of Individual Case Safety Reports Implementation Guide; 条文为英文整理稿，待专家复核",
-      "issue_date": "2014-11-06",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "ICSR 传输要求包含个案识别与临床信息，与最小化传输/禁转要求存在张力。",
-      "url": "https://www.ich.org/page/e2br3-electronic-transmission-individual-case-safety-reports"
-    }
-  },
-  {
-    "rule_id": "FDA_21CFR314_80_001",
-    "region": "US",
-    "rule_text": "The applicant shall report each adverse drug experience that is both serious and unexpected, whether foreign or domestic, as soon as possible but in no case later than 15 calendar days from initial receipt of the information, and shall submit the report to FDA in the required electronic format.",
-    "rule_category": "药物警戒",
-    "jurisdiction_scope": ["US"],
-    "sensitivity_score": 0.85,
-    "metadata": {
-      "source": "21 CFR 314.80(c)(1)(i) Postmarketing reporting of adverse drug experiences; 条文为英文整理稿，待专家复核",
-      "issue_date": "1985-02-13",
-      "revision_history": [],
-      "status": "draft_for_review",
-      "verification_required": true,
-      "note": "美国 FDA 15 日快速报告义务，同样指向全球安全数据库提交。",
-      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.80"
-    }
+ {
+  "rule_id": "CN_DSL_Art36_001",
+  "region": "CN",
+  "rule_text": "非经中华人民共和国主管机关批准，境内的组织、个人不得向外国司法或者执法机构提供存储于中华人民共和国境内的数据。",
+  "rule_category": "数据安全",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.95,
+  "metadata": {
+   "source": "《中华人民共和国数据安全法》第三十六条（2021-06-10 通过，2021-09-01 施行）；条文为整理稿，待专家复核",
+   "issue_date": "2021-09-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "阻断条款：与境外监管机构的调阅/检查要求构成义务—禁止型冲突。",
+   "url": "https://www.gov.cn/xinwen/2021-06/11/content_5616919.htm"
   }
+ },
+ {
+  "rule_id": "CN_PIPL_Art41_001",
+  "region": "CN",
+  "rule_text": "中华人民共和国主管机关根据有关法律和中华人民共和国缔结或者参加的国际条约、协定，或者按照平等互惠原则，处理外国司法或者执法机构关于提供个人信息的请求。非经中华人民共和国主管机关批准，个人信息处理者不得向外国司法或者执法机构提供存储于中华人民共和国境内的个人信息。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.95,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第四十一条（2021-11-01 施行）；条文为整理稿，待专家复核",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "阻断条款的个人信息版本，与《数据安全法》第36条并行适用。",
+   "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
+  }
+ },
+ {
+  "rule_id": "CN_PIPL_Art47_001",
+  "region": "CN",
+  "rule_text": "有下列情形之一的，个人信息处理者应当主动删除个人信息；未删除的，个人有权请求删除：（一）处理目的已实现、无法实现或者为实现处理目的不再必要；（二）个人信息处理者停止提供产品或者服务，或者保存期限已届满；（三）个人撤回同意；（四）个人信息处理者违反法律、行政法规或者违反约定处理个人信息；（五）法律、行政法规规定的其他情形。法律、行政法规规定的保存期限未届满，或者删除个人信息从技术上难以实现的，个人信息处理者应当停止除存储和采取必要的安全保护措施之外的处理。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第四十七条；条文为整理稿，待专家复核",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "与法定留存义务（药物警戒记录保存）构成义务—义务型张力。",
+   "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
+  }
+ },
+ {
+  "rule_id": "CN_PIPL_Art13_3_001",
+  "region": "CN",
+  "rule_text": "符合下列情形之一的，个人信息处理者方可处理个人信息：……（三）为履行法定职责或者法定义务所必需；……依照本法其他有关规定，处理个人信息应当取得个人同意，但是有前款第二项至第七项规定情形的，不需取得个人同意。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.65,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第十三条第一款第（三）项及第二款；条文为整理稿，待专家复核",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "法定留存/报告义务可构成处理的合法性基础，用于化解内地侧的删除权冲突。",
+   "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
+  }
+ },
+ {
+  "rule_id": "CN_PIPL_Art14_001",
+  "region": "CN",
+  "rule_text": "基于个人同意处理个人信息的，该同意应当由个人在充分知情的前提下自愿、明确作出。法律、行政法规规定处理个人信息应当取得个人单独同意或者书面同意的，从其规定。个人信息的处理目的、处理方式和处理的个人信息种类发生变更的，应当重新取得个人同意。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《中华人民共和国个人信息保护法》第十四条；条文为整理稿，待专家复核",
+   "issue_date": "2021-11-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "同意构成要件（内地口径），与香港订明同意要件存在差异。",
+   "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
+  }
+ },
+ {
+  "rule_id": "CN_OUTBOUND_Art5_1_001",
+  "region": "CN",
+  "rule_text": "数据出境符合下列条件之一的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证：……（一）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施跨境人力资源管理所必需，确需向境外提供个人信息的；……",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《促进和规范数据跨境流动规定》第五条第（一）项（国家互联网信息办公室令第16号，2024-03-22）；条文为整理稿，待专家复核",
+   "issue_date": "2024-03-22",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "免除的是出境路径义务三项，不免除告知与单独同意义务。",
+   "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
+  }
+ },
+ {
+  "rule_id": "CN_OUTBOUND_Art5_5_001",
+  "region": "CN",
+  "rule_text": "数据处理者向境外提供个人信息，符合下列条件之一的，免予申报数据出境安全评估、订立个人信息出境标准合同、通过个人信息保护认证：……（三）紧急情况下为保护自然人的生命健康和财产安全，确需向境外提供个人信息的；……",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.75,
+  "metadata": {
+   "source": "《促进和规范数据跨境流动规定》第五条第（三）项（国家互联网信息办公室令第16号，2024-03-22）；条文已按官方公布文本核对",
+   "issue_date": "2024-03-22",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "紧急豁免：仅豁免出境路径义务，是否及于人遗信息对外提供的备案/备份/审查另有要求。规则标识中的 Art5_5 为历史编号，条文对应官方文本第五条第（三）项。",
+   "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
+  }
+ },
+ {
+  "rule_id": "CN_HGR_Art7_001",
+  "region": "CN",
+  "rule_text": "外国组织、个人及其设立或者实际控制的机构不得在我国境内采集、保藏我国人类遗传资源，不得向境外提供我国人类遗传资源。",
+  "rule_category": "人类遗传资源",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.95,
+  "metadata": {
+   "source": "《中华人民共和国人类遗传资源管理条例》第七条；条文为整理稿，待专家复核",
+   "issue_date": "2019-07-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "禁止性规定，无紧急例外，与紧急豁免条款可能直接对立。",
+   "url": "https://www.gov.cn/zhengce/content/2019-06/10/content_5398821.htm"
+  }
+ },
+ {
+  "rule_id": "CN_PV_RETENTION_001",
+  "region": "CN",
+  "rule_text": "药品上市许可持有人应当建立药物警戒记录与数据的管理制度，妥善保存药物警戒活动形成的记录与数据，保存期限至少至药品注册证书注销后十年。",
+  "rule_category": "药物警戒",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《药物警戒质量管理规范》第一百一十三条（国家药品监督管理局 2021 年第 65 号公告）；条文与年限已核对",
+   "issue_date": "2021-12-01",
+   "revision_history": [],
+   "status": "verified",
+   "verification_required": false,
+   "note": "药物警戒记录保存期限：至少至药品注册证书注销后十年（第 113 条）。该留存义务使撤回同意后的删除请求落入《个人信息保护法》第 13 条第（三）项的法定例外。",
+   "url": "https://www.nmpa.gov.cn/"
+  }
+ },
+ {
+  "rule_id": "CN_ADR_MEASURES_RETENTION_001",
+  "region": "CN",
+  "rule_text": "药品生产、经营企业和医疗机构应当建立并保存药品不良反应监测档案与报告记录，保存期限符合国家有关规定，以备监管核查。",
+  "rule_category": "药物警戒",
+  "jurisdiction_scope": [
+   "CN"
+  ],
+  "sensitivity_score": 0.6,
+  "metadata": {
+   "source": "《药品不良反应报告和监测管理办法》（卫生部令第81号）关于报告与档案管理的要求；条文为概括整理，具体条号待专家核对原文",
+   "issue_date": "2011-07-01",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "本条为概括表述，尚未逐字核对原文，定稿前必须补正。",
+   "url": "https://www.nmpa.gov.cn/"
+  }
+ },
+ {
+  "rule_id": "HK_PDPO_DPP2_001",
+  "region": "HK",
+  "rule_text": "保障资料第2原则（准确性及保留期限）：（1）资料使用者须确保个人资料准确；（2）如资料使用者聘用他人代其处理个人资料，须采取所有切实可行的步骤确保该人不作违反该原则的作为；（3）个人资料的保留时间不得超过达致原来目的（包括任何直接有关的目的）所需的时间，除非法律禁止删除该资料或该删除违反公众利益（包括历史方面的利益）。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.7,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第2原则；条文为简体整理，待专家复核",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "删除/保留要求的例外指向“法律禁止删除”，是否涵盖内地法规存有争议。",
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
+  }
+ },
+ {
+  "rule_id": "HK_PDPO_CONSENT_DEF_001",
+  "region": "HK",
+  "rule_text": "保障资料第3原则所指的同意，为资料当事人自愿给予的明示同意；资料当事人有权以书面通知，撤回先前曾给予的同意。",
+  "rule_category": "数据保护",
+  "jurisdiction_scope": [
+   "HK"
+  ],
+  "sensitivity_score": 0.65,
+  "metadata": {
+   "source": "《个人资料（私隐）条例》（香港法例第486章）保障资料第3原则；条文已按香港个人资料私隐专员公署公布的中文说明核对",
+   "issue_date": "1996-12-20",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": false,
+   "note": "同意构成要件（香港口径）：须为自愿给予的明示同意，撤回须以书面通知；条例并未要求同意本身以书面作出。与内地单独同意要求存在定义性差异。",
+   "url": "https://www.elegislation.gov.hk/hk/cap486"
+  }
+ },
+ {
+  "rule_id": "EU_GVP_MODULE_VI_001",
+  "region": "EU",
+  "rule_text": "Marketing authorisation holders shall submit information on all serious adverse reactions occurring within the Union or in third countries to EudraVigilance: within 15 days of the holder becoming aware of the case for serious cases, and within 90 days for non-serious cases. Case information shall be submitted electronically in accordance with the ICH E2B format.",
+  "rule_category": "药物警戒",
+  "jurisdiction_scope": [
+   "EU"
+  ],
+  "sensitivity_score": 0.85,
+  "metadata": {
+   "source": "EU Good Pharmacovigilance Practices Module VI (Management and reporting of adverse reactions to medicinal products), Commission Implementing Regulation (EU) No 520/2012; 条文为英文整理稿，待专家复核",
+   "issue_date": "2012-06-19",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "要求向欧盟全球安全数据库（EudraVigilance）提交个例安全性报告，构成对 GBA 禁转条款的全球报告义务。",
+   "url": "https://www.ema.europa.eu/en/human-regulatory-overview/pharmacovigilance"
+  }
+ },
+ {
+  "rule_id": "ICH_E2B_R3_001",
+  "region": "INTL",
+  "rule_text": "Individual Case Safety Reports (ICSRs) shall be transmitted electronically between reporting parties and regulatory authorities using the ICH E2B(R3) message specification, which includes patient identifiable and clinical information needed for case assessment.",
+  "rule_category": "药物警戒",
+  "jurisdiction_scope": [
+   "EU",
+   "US",
+   "ICH"
+  ],
+  "sensitivity_score": 0.85,
+  "metadata": {
+   "source": "ICH E2B(R3) Electronic Transmission of Individual Case Safety Reports Implementation Guide; 条文为英文整理稿，待专家复核",
+   "issue_date": "2014-11-06",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "ICSR 传输要求包含个案识别与临床信息，与最小化传输/禁转要求存在张力。",
+   "url": "https://www.ich.org/page/e2br3-electronic-transmission-individual-case-safety-reports"
+  }
+ },
+ {
+  "rule_id": "FDA_21CFR314_80_001",
+  "region": "US",
+  "rule_text": "The applicant shall report each adverse drug experience that is both serious and unexpected, whether foreign or domestic, as soon as possible but in no case later than 15 calendar days from initial receipt of the information, and shall submit the report to FDA in the required electronic format.",
+  "rule_category": "药物警戒",
+  "jurisdiction_scope": [
+   "US"
+  ],
+  "sensitivity_score": 0.85,
+  "metadata": {
+   "source": "21 CFR 314.80(c)(1)(i) Postmarketing reporting of adverse drug experiences; 条文为英文整理稿，待专家复核",
+   "issue_date": "1985-02-13",
+   "revision_history": [],
+   "status": "draft_for_review",
+   "verification_required": true,
+   "note": "美国 FDA 15 日快速报告义务，同样指向全球安全数据库提交。",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.80"
+  }
+ }
 ]
