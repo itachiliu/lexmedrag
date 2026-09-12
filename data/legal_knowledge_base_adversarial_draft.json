@@ -12,9 +12,9 @@
    "source": "《中华人民共和国数据安全法》第三十六条（2021-06-10 通过，2021-09-01 施行）；条文为整理稿，待专家复核",
    "issue_date": "2021-09-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "阻断条款：与境外监管机构的调阅/检查要求构成义务—禁止型冲突。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《数据安全法》第三十六条，已按全国人大网公布文本核对",
    "url": "https://www.gov.cn/xinwen/2021-06/11/content_5616919.htm"
   }
  },
@@ -31,9 +31,9 @@
    "source": "《中华人民共和国个人信息保护法》第四十一条（2021-11-01 施行）；条文为整理稿，待专家复核",
    "issue_date": "2021-11-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "阻断条款的个人信息版本，与《数据安全法》第36条并行适用。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《个人信息保护法》第四十一条，已按全国人大网公布文本核对",
    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
   }
  },
@@ -50,9 +50,9 @@
    "source": "《中华人民共和国个人信息保护法》第四十七条；条文为整理稿，待专家复核",
    "issue_date": "2021-11-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "与法定留存义务（药物警戒记录保存）构成义务—义务型张力。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《个人信息保护法》第四十七条，已按全国人大网公布文本核对",
    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
   }
  },
@@ -69,9 +69,9 @@
    "source": "《中华人民共和国个人信息保护法》第十三条第一款第（三）项及第二款；条文为整理稿，待专家复核",
    "issue_date": "2021-11-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "法定留存/报告义务可构成处理的合法性基础，用于化解内地侧的删除权冲突。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《个人信息保护法》第十三条第一款第（三）项，已按全国人大网公布文本核对",
    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
   }
  },
@@ -88,9 +88,9 @@
    "source": "《中华人民共和国个人信息保护法》第十四条；条文为整理稿，待专家复核",
    "issue_date": "2021-11-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "同意构成要件（内地口径），与香港订明同意要件存在差异。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《个人信息保护法》第十四条，已按全国人大网公布文本核对",
    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm"
   }
  },
@@ -107,9 +107,9 @@
    "source": "《促进和规范数据跨境流动规定》第五条第（一）项（国家互联网信息办公室令第16号，2024-03-22）；条文为整理稿，待专家复核",
    "issue_date": "2024-03-22",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "免除的是出境路径义务三项，不免除告知与单独同意义务。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《促进和规范数据跨境流动规定》第五条第（一）项，已按网信办公布文本核对",
    "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
   }
  },
@@ -126,9 +126,9 @@
    "source": "《促进和规范数据跨境流动规定》第五条第（三）项（国家互联网信息办公室令第16号，2024-03-22）；条文已按官方公布文本核对",
    "issue_date": "2024-03-22",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "紧急豁免：仅豁免出境路径义务，是否及于人遗信息对外提供的备案/备份/审查另有要求。规则标识中的 Art5_5 为历史编号，条文对应官方文本第五条第（三）项。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《促进和规范数据跨境流动规定》第五条第（三）项，已按网信办公布文本核对",
    "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
   }
  },
@@ -145,9 +145,9 @@
    "source": "《中华人民共和国人类遗传资源管理条例》第七条；条文为整理稿，待专家复核",
    "issue_date": "2019-07-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "禁止性规定，无紧急例外，与紧急豁免条款可能直接对立。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《人类遗传资源管理条例》第七条，已按国务院公布文本核对",
    "url": "https://www.gov.cn/zhengce/content/2019-06/10/content_5398821.htm"
   }
  },
@@ -202,9 +202,9 @@
    "source": "《个人资料（私隐）条例》（香港法例第486章）附表1 保障资料第2原则；条文为简体整理，待专家复核",
    "issue_date": "1996-12-20",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "删除/保留要求的例外指向“法律禁止删除”，是否涵盖内地法规存有争议。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "《个人资料（私隐）条例》保障资料第 2 原则，已按私隐专员公署公布说明核对",
    "url": "https://www.elegislation.gov.hk/hk/cap486"
   }
  },
@@ -237,13 +237,14 @@
   ],
   "sensitivity_score": 0.85,
   "metadata": {
-   "source": "EU Good Pharmacovigilance Practices Module VI (Management and reporting of adverse reactions to medicinal products), Commission Implementing Regulation (EU) No 520/2012; 条文为英文整理稿，待专家复核",
+   "source": "EU GVP Module VI – Collection, management and submission of reports of suspected adverse reactions to medicinal products, EMA/873138/2011 Rev 2, section VI.B.7.1；条文已按 EMA 公布文本核对",
    "issue_date": "2012-06-19",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "要求向欧盟全球安全数据库（EudraVigilance）提交个例安全性报告，构成对 GBA 禁转条款的全球报告义务。",
-   "url": "https://www.ema.europa.eu/en/human-regulatory-overview/pharmacovigilance"
+   "status": "verified",
+   "verification_required": false,
+   "note": "严重有效 ICSR 须尽快且在收到信息后 15 个日历日内提交至 EudraVigilance，非严重有效 ICSR 为 90 个日历日（VI.B.7.1）。",
+   "url": "https://www.ema.europa.eu/en/human-regulatory-overview/pharmacovigilance",
+   "rule_text": "Marketing authorisation holders shall submit valid individual case safety reports (ICSRs) to the EudraVigilance database: serious valid ICSRs as soon as possible and in no case later than 15 calendar days after initial receipt of the information, and non-serious valid ICSRs within 90 calendar days of receipt. ICSRs are transmitted electronically in the ICH E2B format."
   }
  },
  {
@@ -258,12 +259,12 @@
   ],
   "sensitivity_score": 0.85,
   "metadata": {
-   "source": "ICH E2B(R3) Electronic Transmission of Individual Case Safety Reports Implementation Guide; 条文为英文整理稿，待专家复核",
+   "source": "ICH E2B(R3) Electronic Transmission of Individual Case Safety Reports；依据欧盟 GVP 模块六（EMA/873138/2011 Rev 2）对 E2B(R3) 报文的强制引用核对，ICH 原始实施指南 PDF 未取到",
    "issue_date": "2014-11-06",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "ICSR 传输要求包含个案识别与临床信息，与最小化传输/禁转要求存在张力。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "核对依据为欧盟 GVP 模块六对 E2B(R3) 报文的强制引用（含 ACK.B.r.6 等 E2B(R3) 回执码）；ICH 原始实施指南 PDF 在核对环境下未能取到。",
    "url": "https://www.ich.org/page/e2br3-electronic-transmission-individual-case-safety-reports"
   }
  },
@@ -277,13 +278,14 @@
   ],
   "sensitivity_score": 0.85,
   "metadata": {
-   "source": "21 CFR 314.80(c)(1)(i) Postmarketing reporting of adverse drug experiences; 条文为英文整理稿，待专家复核",
+   "source": "21 CFR 314.80(c)(1)(i) 与 (g)(1) Postmarketing reporting of adverse drug experiences；条文已按 eCFR 现行文本核对",
    "issue_date": "1985-02-13",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "美国 FDA 15 日快速报告义务，同样指向全球安全数据库提交。",
-   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.80"
+   "status": "verified",
+   "verification_required": false,
+   "note": "21 CFR 314.80(c)(1)(i) 15 日快速报告；同一节 (c)(2) 另规定其余不良药物经验的季度与年度定期报告。",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.80",
+   "rule_text": "The applicant must report each adverse drug experience that is both serious and unexpected, whether foreign or domestic, as soon as possible but no later than 15 calendar days from initial receipt of the information by the applicant, and must submit the report to FDA in electronic format."
   }
  }
 ]

@@ -12,7 +12,7 @@ Files: 119  |  total size: 26.9 MB
 | `README.zh-CN.md` | 6 |
 | `README_project.md` | 6 |
 | `data/legal_knowledge_base.json` | 41 |
-| `data/legal_knowledge_base_adversarial_draft.json` | 15 |
+| `data/legal_knowledge_base_adversarial_draft.json` | 16 |
 | `data/legal_knowledge_base_gba_draft.json` | 11 |
 | `data/legal_knowledge_base_hgr_draft.json` | 2 |
 | `data/legal_knowledge_base_hkmo_draft.json` | 7 |
@@ -22,7 +22,7 @@ Files: 119  |  total size: 26.9 MB
 | `docs/ADVERSARIAL_CONFLICT_SET_v1.md` | 7 |
 | `docs/GBAMC_CONSTRUCTION_PLAN.md` | 6 |
 | `docs/KBS_STYLE_REPORT.md` | 4 |
-| `docs/LEGAL_VERIFICATION_LOG.md` | 5 |
+| `docs/LEGAL_VERIFICATION_LOG.md` | 8 |
 | `docs/STANCE_GBA_QUANTITATIVE_EXEMPTION_v1.md` | 6 |
 | `figures/fig_conflict_eval.alignment.json` | 4 |
 | `figures/fig_conflict_eval.alignment.svg` | 1 |
