@@ -173,19 +173,19 @@
  {
   "rule_id": "CN_ADR_MEASURES_RETENTION_001",
   "region": "CN",
-  "rule_text": "药品生产、经营企业和医疗机构应当建立并保存药品不良反应监测档案与报告记录，保存期限符合国家有关规定，以备监管核查。",
+  "rule_text": "药品生产、经营企业和医疗机构应当建立并保存药品不良反应报告和监测档案；未建立的，责令限期改正，可以并处五千元以上三万元以下罚款。",
   "rule_category": "药物警戒",
   "jurisdiction_scope": [
    "CN"
   ],
   "sensitivity_score": 0.6,
   "metadata": {
-   "source": "《药品不良反应报告和监测管理办法》（卫生部令第81号）关于报告与档案管理的要求；条文为概括整理，具体条号待专家核对原文",
+   "source": "《药品不良反应报告和监测管理办法》（卫生部令第81号）第十八条；条文已按原文核对",
    "issue_date": "2011-07-01",
    "revision_history": [],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "note": "本条为概括表述，尚未逐字核对原文，定稿前必须补正。",
+   "status": "verified",
+   "verification_required": false,
+   "note": "该办法本身未规定保存年限，年限要求见《药物警戒质量管理规范》第一百一十三条。同一办法第二十一条规定新的、严重的不良反应 15 日内报告、死亡病例立即报告、其他 30 日内报告；第三十三条规定境外发生的严重不良反应自获知之日起 30 日内报送国家药品不良反应监测中心。",
    "url": "https://www.nmpa.gov.cn/"
   }
  },

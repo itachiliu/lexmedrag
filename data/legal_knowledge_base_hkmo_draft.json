@@ -85,14 +85,15 @@
   ],
   "sensitivity_score": 0.6,
   "metadata": {
-   "source": "香港法例第486章第33条（尚未实施）及政制及内地事务局公报说明；条文为简体整理，待专家复核",
+   "source": "《个人资料（私隐）条例》（香港法例第486章）第33条；依据香港个人资料私隐专员公署《保障个人资料：跨境资料转移指引》核对",
    "issue_date": "1996-12-20",
    "revision_history": [
     "第33条自条例颁布至今未获实施（政府公报多次确认）；本条以条例主体生效日作为 issue_date，避免被日期规则误判为后法"
    ],
-   "status": "draft_for_review",
-   "verification_required": true,
-   "url": "https://www.cmab.gov.hk/sc/press/press_3611.htm"
+   "status": "verified",
+   "verification_required": false,
+   "url": "https://www.cmab.gov.hk/sc/press/press_3611.htm",
+   "note": "公署指引明确“雖然第33條尚未實施”，该条禁止资料使用者将个人资料转移至香港以外地方，除非符合条例列明的例外；指引为第33条实施作准备，并建议以合约保障等实务措施保护个人资料。因此跨境移转目前仍受条例其他条文（如保障资料原则）规管。"
   }
  },
  {

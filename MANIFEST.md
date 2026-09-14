@@ -1,6 +1,6 @@
 # Release manifest
 
-Files: 119  |  total size: 26.9 MB
+Files: 119  |  total size: 27.0 MB
 
 | File | Size (KB) |
 |---|---|
@@ -11,18 +11,18 @@ Files: 119  |  total size: 26.9 MB
 | `README.md` | 7 |
 | `README.zh-CN.md` | 6 |
 | `README_project.md` | 6 |
-| `data/legal_knowledge_base.json` | 41 |
+| `data/legal_knowledge_base.json` | 50 |
 | `data/legal_knowledge_base_adversarial_draft.json` | 16 |
 | `data/legal_knowledge_base_gba_draft.json` | 11 |
 | `data/legal_knowledge_base_hgr_draft.json` | 2 |
-| `data/legal_knowledge_base_hkmo_draft.json` | 7 |
+| `data/legal_knowledge_base_hkmo_draft.json` | 8 |
 | `data/legal_knowledge_base_qa_derived_draft.json` | 117 |
 | `data/merge.json` | 690 |
 | `data/rule_id_migration_v2_to_v3.json` | 1 |
 | `docs/ADVERSARIAL_CONFLICT_SET_v1.md` | 7 |
 | `docs/GBAMC_CONSTRUCTION_PLAN.md` | 6 |
 | `docs/KBS_STYLE_REPORT.md` | 4 |
-| `docs/LEGAL_VERIFICATION_LOG.md` | 11 |
+| `docs/LEGAL_VERIFICATION_LOG.md` | 13 |
 | `docs/STANCE_GBA_QUANTITATIVE_EXEMPTION_v1.md` | 6 |
 | `figures/fig_conflict_eval.alignment.json` | 4 |
 | `figures/fig_conflict_eval.alignment.svg` | 1 |
